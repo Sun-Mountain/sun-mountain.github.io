@@ -89,8 +89,8 @@ main {
     border-radius: 25px;
     display: inline-block;
     margin: 25px 12px 0;
-
-    width: 225px;
+    max-height: 400px;
+    width: 275px;
 
     .card-description {
         border-radius: 0 0 25px 25px;
@@ -98,28 +98,25 @@ main {
         display: flex;
         flex-direction: column;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 14px;
-        height: 200px;
         justify-content: space-around;
         padding: 10px;
 
         .title {
-            font-size: 16px;
+            font-size: 20px;
             margin: 0;
             padding: 0 0 8px 0;
         }
 
         .languages {
-            font-size: 12px;
             font-style: italic;
             margin: 0;
             text-align: center;
         }
 
         .proj-desc {
-            font-size: 12px;
             margin: 12px 12px 0;
-            height: 200px;
+            height: 135px;
+            font-size: 16px;
             overflow: hidden;
         }
     }
@@ -161,10 +158,14 @@ main {
     }
 
     .card-image {
+        display: flex;
+        justify-content: center;
+
         img {
             border-radius: 25px 25px 0 0;
-            max-width: 225px;
-            max-height: 250px;
+            max-width: 275px;
+            max-height: 130px;
+            overflow: hidden;
         }
     }
 }
@@ -183,7 +184,7 @@ main {
 
 .theme-switch {
     display: inline-block;
-    height: 18px;
+    height: 19px;
     margin: 8px 0 0;
     position: relative;
     width: 40px;
