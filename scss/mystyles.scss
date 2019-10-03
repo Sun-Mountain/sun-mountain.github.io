@@ -7,6 +7,9 @@
     --bg-color: #fff;
     --heading-color: #292922;
     --card-border: #161625;
+    --footer-bg: #161625;
+    --footer-txt-color: #818cab;
+    --footer-link: #e91e63;
 }
 
 [data-theme="dark"] {
@@ -16,6 +19,9 @@
     --bg-color: #161625;
     --heading-color: #818cab;
     --card-border: #fff;
+    --footer-bg: #818cab;
+    --footer-txt-color: #161625;
+    --footer-link: #302AE6;
 }
 
 $title-font: 'Berkshire Swash', cursive;
@@ -24,9 +30,9 @@ body {
     background-color: var(--bg-color);
     color: var(--font-color);
     font-family: Arial, Helvetica, sans-serif;
-    max-width: 90%;
-    margin: 30px auto;
     font-size: calc(1rem + 0.25vh);
+    margin: 0 auto;
+    width: 100%;
 }
 
 #greeting {
@@ -72,6 +78,11 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin: 0 auto;
+}
+
+nav {
+    margin: 30px auto;
 }
 
 .title {
@@ -149,7 +160,7 @@ main {
         }
 
         a {
-            width: 22%;
+            width: 15%;
         }
 
         a:hover {
@@ -167,6 +178,25 @@ main {
             max-height: 130px;
             overflow: hidden;
         }
+    }
+}
+
+footer {
+    background-color: var(--footer-bg);
+    color: var(--footer-txt-color);
+    margin: 75px 0 0 0;
+    padding: 20px 0 5px 0;
+    text-align: center;
+    width: 100%;
+
+    a {
+        border-bottom: 1px dashed var(--footer-link);
+        color: var(--footer-link);
+        text-decoration: none;
+    }
+
+    a:hover {
+        border-bottom: 0;
     }
 }
 
