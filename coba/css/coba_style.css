@@ -58,7 +58,8 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); }
+  transform: translate(-50%, -50%);
+  width: 50%; }
   #home-btn-container .btn {
     border-radius: 15px;
     color: #444444;
