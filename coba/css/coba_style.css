@@ -32,6 +32,18 @@ body {
     border-radius: 15px;
     margin: 5px;
     padding: 10px; }
+  #volunteer-prompt .info-check-container {
+    display: flex;
+    flex-direction: column; }
+  #volunteer-prompt .info-check-container {
+    margin: 5px 0; }
+  #volunteer-prompt .review-label {
+    font-weight: 550; }
+  #volunteer-prompt #notes {
+    flex-direction: column;
+    margin: 10px 0; }
+    #volunteer-prompt #notes .review-answer {
+      margin: 10px 0; }
   #volunteer-prompt #promt-btns {
     margin: 15px 0; }
     #volunteer-prompt #promt-btns input {
