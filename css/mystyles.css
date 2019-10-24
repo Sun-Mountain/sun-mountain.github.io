@@ -19,7 +19,7 @@
   --card-border: #fff;
   --footer-bg: #818cab;
   --footer-txt-color: #161625;
-  --footer-link: #302AE6; }
+  --footer-link: #fff; }
 
 body {
   background-color: var(--bg-color);
@@ -153,8 +153,6 @@ nav {
 footer {
   background-color: var(--footer-bg);
   color: var(--footer-txt-color);
-  margin: 75px 0 0 0;
-  padding: 20px 0 5px 0;
   text-align: center;
   position: absolute;
   bottom: 0;
@@ -165,6 +163,8 @@ footer {
     text-decoration: none; }
   footer a:hover {
     border-bottom: 0; }
+  footer p {
+    padding: 0 15px; }
 
 /* slider switch css */
 .theme-switch-wrapper {
