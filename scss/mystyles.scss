@@ -95,7 +95,7 @@ nav {
 
 .writings {
     border: 1px var(--card-border) solid;
-    margin: auto;
+    margin: 0em auto 10px auto;
     max-width: 50em;
     padding: 1em;
 
@@ -130,15 +130,15 @@ nav {
     height: 100%;
     justify-content: space-around;
     margin: 1em auto;
-    padding: 0 0 200px 0;
+    padding: 0 0 150px 0;
 }
 
-.card {
+.card { 
     background-color: var(--card-border);
     border: 1px solid var(--card-border);
     border-radius: 25px;
     display: inline-block;
-    margin: 25px 12px 0;
+    margin: 40px 12px 20px;
     max-height: 400px;
     width: 275px;
 
