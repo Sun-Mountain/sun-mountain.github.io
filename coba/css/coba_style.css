@@ -118,8 +118,6 @@ body {
       font-weight: 500;
       height: 3em;
       width: 8em; }
-    #review-info-container .btn-container input:focus {
-      outline: 0; }
     #review-info-container .btn-container input:hover {
       background-color: #eee7f9; }
     #review-info-container .btn-container input:active {
