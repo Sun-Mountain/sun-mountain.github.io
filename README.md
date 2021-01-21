@@ -1,3 +1,1 @@
-# Welcome to My Portfolio Page
-
-**10/03/19** - V 4.0 launched
+This is a starter template for [Learn Next.js](https://nextjs.org/learn).
