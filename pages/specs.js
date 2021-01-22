@@ -1,9 +1,10 @@
 import Head from 'next/head'
+import Layout from '../components/layout'
 import Link from 'next/link'
 
 export default function Specs() {
   return (
-    <>
+    <Layout>
       <Head>
         <title>Gaming PC Specs</title>
       </Head>
@@ -13,6 +14,6 @@ export default function Specs() {
           <a>Back to home</a>
         </Link>
       </h2>
-    </>
+    </Layout>
   )
 }
