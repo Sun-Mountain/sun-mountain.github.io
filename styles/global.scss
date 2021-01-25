@@ -1,3 +1,5 @@
+@import 'color-palette';
+
 html,
 body {
   padding: 0;
@@ -8,20 +10,12 @@ body {
   font-size: 18px;
 }
 
-* {
-  box-sizing: border-box;
+main {
+  margin: 25px;
 }
 
-a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-img {
-  max-width: 100%;
-  display: block;
+h1 {
+  background: -webkit-linear-gradient(45deg, $flickr-pink, $byzantine, $purple1 80%);;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

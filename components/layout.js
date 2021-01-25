@@ -3,7 +3,6 @@ import Link from 'next/link'
 import cn from 'classnames'
 import nav from '../styles/nav.module.scss'
 import styles from './layout.module.scss'
-import utilStyles from '../styles/utils.module.css'
 
 const name = 'Nika'
 export const siteTitle = 'Nika Zonnenberg Portfolio'
@@ -26,6 +25,9 @@ export default function Layout({ children, home, specs }) {
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <header className={styles.header}>
+        <div>
+          <h1>Nika Zonnenberg</h1>
+        </div>
         <div className={`${nav.nav_container}`}>
           <Link href="/">
             <a className={cn({
@@ -39,13 +41,15 @@ export default function Layout({ children, home, specs }) {
           </Link>
         </div>
       </header>
-      <main>{children}</main>
-      {!home && (
-        <div className={styles.backToHome}>
-          <Link href="/">
-            <a>← Back to home</a>
-          </Link>
-        </div>
-      )}
+      <main>
+        {children}
+        {!home && (
+          <div className={styles.backToHome}>
+            <Link href="/">
+              <a>← Back to home</a>
+            </Link>
+          </div>
+        )}
+      </main>
     </div>)
 }
