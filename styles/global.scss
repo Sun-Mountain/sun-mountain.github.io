@@ -1,17 +1,37 @@
-@import 'color-palette';
+@import '_base';
 
 html,
 body {
+  color: $text;
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
-    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Helvetica, sans-serif;
   line-height: 1.6;
   font-size: 18px;
 }
 
 main {
-  margin: 25px;
+  margin: 20px auto;
+  max-width: $max;
+  
+  a {
+    background: -webkit-linear-gradient(45deg, $purple2, $ultramarine 80%);;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+  }
+  
+  a:hover {
+    -webkit-text-fill-color: $trypan-blue2;
+    color: $trypan-blue2;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    background: -webkit-linear-gradient(45deg, $purple2, $ultramarine 80%);;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 }
 
 h1 {

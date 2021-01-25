@@ -1,6 +1,8 @@
-@import '_color-palette';
+@import '_base';
 
 .nav_container {
+  margin: 15px 0;
+
   a {
     border-radius: 15px;
     color: $nav-link;
