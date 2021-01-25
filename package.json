@@ -1,24 +1,17 @@
 {
-  "name": "portfolio_v04",
-  "version": "1.0.0",
-  "description": "Rescrub",
-  "main": "script.js",
+  "name": "learn-starter",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "scss": "node-sass --watch scss -o css"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Sun-Mountain/portfolio_v04.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Sun-Mountain/portfolio_v04/issues"
-  },
-  "homepage": "https://github.com/Sun-Mountain/portfolio_v04#readme",
   "dependencies": {
-    "node-sass": "^4.12.0"
-  },
-  "devDependencies": {}
+    "classnames": "^2.2.6",
+    "next": "^10.0.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "sass": "^1.32.5"
+  }
 }
