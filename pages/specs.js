@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function Specs() {
   return (
-    <Layout>
+    <Layout specs>
       <Head>
         <title>Gaming PC Specs</title>
       </Head>

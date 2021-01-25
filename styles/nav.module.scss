@@ -1,0 +1,17 @@
+@import '_color-palette';
+
+.nav_container {
+  a {
+    border-radius: 15px;
+    color: $nav-link;
+    font-weight: 700;
+    margin: 0 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+  }
+}
+
+.selected {
+  background-color: $nav-link;
+  color: $white!important;
+}

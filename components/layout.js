@@ -1,18 +1,20 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import styles from './layout.module.css'
+import cn from 'classnames'
+import nav from '../styles/nav.module.scss'
+import styles from './layout.module.scss'
 import utilStyles from '../styles/utils.module.css'
 
 const name = 'Nika'
-export const siteTitle = 'Next.js Sample Website'
+export const siteTitle = 'Nika Zonnenberg Portfolio'
 
-export default function Layout({ children, home }) {
+export default function Layout({ children, home, specs }) {
   return (<div className={styles.container}>
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Learn how to build a personal website using Next.js"
+          content="Personal portfolio for Nika Zonnenberg."
         />
         <meta
           property="og:image"
@@ -24,33 +26,18 @@ export default function Layout({ children, home }) {
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <header className={styles.header}>
-      {home ? (
-        <>
-          <img
-            src="/images/profile.png"
-            className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
-            alt={name}
-          />
-          <h1 className={utilStyles.heading2Xl}>{name}</h1>
-        </>
-      ) : (
-        <>
+        <div className={`${nav.nav_container}`}>
           <Link href="/">
-            <a>
-              <img
-                src="/images/profile.jpg"
-                className={`${styles.headerImage} ${utilStyles.borderCircle}`}
-                alt={name}
-              />
-            </a>
+            <a className={cn({
+              [nav.selected]: home
+            })}>About</a>
           </Link>
-          <h2 className={utilStyles.headingLg}>
-            <Link href="/">
-              <a className={utilStyles.colorInherit}>{name}</a>
-            </Link>
-          </h2>
-        </>
-      )}
+          <Link href="/specs">
+            <a className={cn({
+              [nav.selected]: specs
+            })}>Specs</a>
+          </Link>
+        </div>
       </header>
       <main>{children}</main>
       {!home && (
