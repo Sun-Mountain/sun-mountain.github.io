@@ -15,7 +15,6 @@
     "react-dom": "^17.0.1",
     "sass": "^1.32.5"
   },
-  "description": "This is a starter template for [Learn Next.js](https://nextjs.org/learn).",
   "main": "index.js",
   "devDependencies": {},
   "repository": {
