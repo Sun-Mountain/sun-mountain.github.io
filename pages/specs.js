@@ -12,9 +12,9 @@ export default function Specs() {
       </Head>
       <section className={spec.spec_container}>
         <div>
-          {/* <img
+          <img
             src="/images/eleanor.png"
-          /> */}
+          />
         </div>
         <div>
           <h1>Specs</h1>
