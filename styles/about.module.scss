@@ -27,6 +27,27 @@
     }
   }
 
+  .site {
+    h4 {
+      font-size: 20px;
+      margin: 25px 0 0 0;
+    }
+
+    p {
+      font-size: 15px;
+      margin: 0;
+
+      a {
+        font-weight: 400;
+        text-decoration: underline!important;
+      }
+
+      a:visited {
+        text-decoration: underline!important;
+      }
+    }
+  }
+
   .writing {
     display: flex;
     flex-direction: column;

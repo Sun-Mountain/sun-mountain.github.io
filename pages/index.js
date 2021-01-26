@@ -19,7 +19,7 @@ export default function Home() {
           </p>
         </div>
         <div className={about.writing}>
-          <h1>Writing</h1>
+          <h1>Selected Writings</h1>
           <Link href="https://dev.to/nikacodes/basic-color-theory-for-web-developers-15a0">
             <a target="_blank">
               Basic Color Theory for Web Developers
@@ -30,6 +30,15 @@ export default function Home() {
               What is Tech Debt?
             </a>
           </Link>
+        </div>
+        <div className={about.site}>
+          <h4>About This Site</h4>
+          <p>
+            Made with NextJS. Hosted on Github Pages.
+          </p>
+          <p>
+            Special thanks to James Wallis's <Link href="https://dev.to/jameswallis/deploying-a-next-js-app-to-github-pages-24pn"><a>helpful tutorial</a></Link> for deploying a NextJS site to Github webpages.
+          </p>
         </div>
       </section>
     </Layout>
