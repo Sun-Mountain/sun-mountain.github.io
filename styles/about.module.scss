@@ -1,0 +1,34 @@
+@import '_base';
+
+.about_container {
+
+  .intro {
+    text-align: center;
+
+    h2 {
+      font-size: 22px;
+      font-weight: 500;
+      margin: 0;
+    }
+  }
+
+  h1 {
+    font-size: 2em;
+    margin: 0;
+  }
+
+  @media (max-width: $min) {
+    margin: 0 25px;
+  }
+
+  .bio {
+    h2 {
+      margin: 0;
+    }
+  }
+
+  .writing {
+    display: flex;
+    flex-direction: column;
+  }
+} 
