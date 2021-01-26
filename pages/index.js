@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
       <section className={about.about_container}>
         <div className={about.bio}>
-          <h1>About</h1>
+          <h1>About Me</h1>
           <h2>I am a software engineer that is passionate about accessibility, equity, and visibility in tech.</h2>
           <p>
             I am currently working as a software engineer <Link href="https://fearless.tech/"><a target="_blank">@Fearless</a></Link> in Baltimore, Maryland.
