@@ -18,13 +18,25 @@ export default function Specs() {
         </div>
         <div>
           <h1>Specs</h1>
-          <b>Name:</b> Eleanor<br />
-          <em>She's a legit snack.</em><br /><br />
-          <b>CPU:</b> Ryzen 5 5600X<br />
-          <b>Motherboard:</b> ROG STRIX B550-F<br />
-          <b>Video Card:</b> GeoForce RTX 3070<br />
-          <b>Power Supply:</b> 	SeaSonic FOCUS Plus Platinum 650<br />
-          <b>OS:</b> Windows 10
+          <p>
+            <b>Name:</b> Eleanor<br />
+            <Link href="https://www.youtube.com/watch?v=kBIWV9kwdH4"><a target="_blank">She's a legit snack.</a></Link>
+          </p>
+          <p>
+            <b>CPU:</b> Ryzen 5 5600X
+          </p>
+          <p>
+            <b>Motherboard:</b> ROG STRIX B550-F
+          </p>
+          <p>
+            <b>Video Card:</b> GeoForce RTX 3070
+          </p>
+          <p>
+            <b>Power Supply:</b> 	SeaSonic FOCUS Plus Platinum 650
+          </p>
+          <p>
+            <b>OS:</b> Windows 10
+          </p>
         </div>
       </section>
     </Layout>
