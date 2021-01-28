@@ -48,4 +48,13 @@
 
 .backToHome {
   margin: 3rem 0 0;
-} 
+}
+
+.container {
+  background-color: $white;
+  border: 1px solid $trypan-blue2;
+  box-shadow: 5px 10px $trypan-blue2;
+  margin: 25px auto;
+  max-width: $max;
+  padding: 25px;
+}

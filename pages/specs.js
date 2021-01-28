@@ -29,7 +29,7 @@ export default function Specs() {
             <b>Motherboard:</b> ROG STRIX B550-F
           </p>
           <p>
-            <b>Video Card:</b> GeoForce RTX 3070
+            <b>Video Card:</b> GeForce RTX 3070
           </p>
           <p>
             <b>Power Supply:</b> 	SeaSonic FOCUS Plus Platinum 650
