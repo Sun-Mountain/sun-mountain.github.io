@@ -24,6 +24,11 @@ export default function Home() {
               Basic Color Theory for Web Developers
             </a>
           </Link>
+          <Link href="https://technical.ly/baltimore/2021/02/02/nicole-zonnenberg-software-career/">
+            <a target="_blank">
+              How I Got Here: From chocolate factory to software firm
+            </a>
+          </Link>
           <Link href="https://fearless.tech/blog/2020/09/07/what-is-tech-debt">
             <a target="_blank">
               What is Tech Debt?
