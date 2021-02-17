@@ -14,6 +14,7 @@ export default function Specs() {
         <div>
           <img
             src="/images/eleanor.png"
+            alt="Picture of personal computer. The tower is see through and glowing purple."
           />
         </div>
         <div>

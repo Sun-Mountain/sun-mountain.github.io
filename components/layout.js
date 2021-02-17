@@ -10,6 +10,7 @@ export const siteTitle = 'Nika Zonnenberg Portfolio'
 export default function Layout({ children, home, specs }) {
   return (<div className={styles.container}>
       <Head>
+        <html lang="eng-US" />
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
