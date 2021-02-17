@@ -31,7 +31,7 @@ export default function Home() {
           </Link>
         </div>
         <div className={about.site}>
-          <h4>About This Site</h4>
+          <h2>About This Site</h2>
           <p>
             Made with NextJS. Hosted on Github Pages.
           </p>
