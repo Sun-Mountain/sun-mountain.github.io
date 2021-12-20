@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import cn from 'classnames';
 import nav from '../styles/nav.module.scss';
-import styles from './layout.module.scss';
+import styles from '../styles/layout.module.scss';
 
 export default function Nav({home, specs}) {
   return (

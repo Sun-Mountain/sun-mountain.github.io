@@ -1,12 +1,12 @@
-import Head from 'next/head'
-import Link from 'next/link'
-import styles from './layout.module.scss'
+import Head from 'next/head';
+import Link from 'next/link';
+import styles from '../styles/layout.module.scss';
 
-import Footer from './footer'
-import Nav from './nav'
+import Footer from './footer';
+import Nav from './nav';
 
-const name = 'Nika'
-export const siteTitle = 'Nika Zonnenberg Portfolio'
+const name = 'Nika';
+export const siteTitle = 'Nika Zonnenberg Portfolio';
 
 export default function Layout({ children, home }) {
   return (<div className={styles.container}>
@@ -38,5 +38,5 @@ export default function Layout({ children, home }) {
         )}
       </main>
       <Footer />
-    </div>)
+    </div>);
 } 
