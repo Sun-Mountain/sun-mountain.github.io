@@ -1,13 +1,14 @@
-import Head from 'next/head'
-import Link from 'next/link'
-import cn from 'classnames'
-import nav from '../styles/nav.module.scss'
-import styles from './layout.module.scss'
+import Head from 'next/head';
+import Link from 'next/link';
+import styles from '../styles/layout.module.scss';
 
-const name = 'Nika'
-export const siteTitle = 'Nika Zonnenberg Portfolio'
+import Footer from './footer';
+import Nav from './nav';
 
-export default function Layout({ children, home, specs }) {
+const name = 'Nika';
+export const siteTitle = 'Nika Zonnenberg Portfolio';
+
+export default function Layout({ children, home }) {
   return (<div className={styles.container}>
       <Head>
         <html lang="eng-US" />
@@ -25,31 +26,7 @@ export default function Layout({ children, home, specs }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <header className={styles.header}>
-        <div>
-          <h1>Nika Zonnenberg</h1>
-          <h2>
-            <Link href="https://fearless.tech/">
-              <a target="_blank">
-                Fearless
-              </a>
-            </Link>
-            &nbsp;Software Engineer
-          </h2>
-        </div>
-        <div className={`${nav.nav_container}`}>
-          <Link href="/">
-            <a className={cn({
-              [nav.selected]: home
-            })}>About</a>
-          </Link>
-          <Link href="/specs">
-            <a className={cn({
-              [nav.selected]: specs
-            })}>Specs</a>
-          </Link>
-        </div>
-      </header>
+      <Nav />
       <main>
         {children}
         {!home && (
@@ -60,5 +37,6 @@ export default function Layout({ children, home, specs }) {
           </div>
         )}
       </main>
-    </div>)
+      <Footer />
+    </div>);
 } 
