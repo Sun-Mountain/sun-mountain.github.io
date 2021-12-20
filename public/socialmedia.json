@@ -1,0 +1,20 @@
+[
+  {
+    "name": "twitter",
+    "alt": "alt text goes here",
+    "logo": "/icons/twitter.svg",
+    "url": "https://twitter.com/NikaCodes"
+  },
+  {
+    "name": "instagram",
+    "alt": "alt text goes here",
+    "logo": "/icons/instagram.svg",
+    "url": "https://www.instagram.com/swingonsunshine/"
+  },
+  {
+    "name": "email",
+    "alt": "alt text goes here",
+    "logo": "/icons/gmail.svg",
+    "url": "#"
+  }
+]
