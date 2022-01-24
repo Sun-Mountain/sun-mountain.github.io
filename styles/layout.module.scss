@@ -48,6 +48,22 @@
 
 .backToHome {
   margin: 3rem 0 0;
+  background: -webkit-linear-gradient(45deg, $purple2, $ultramarine 80%);;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+}
+
+.backToHome:hover {
+  -webkit-text-fill-color: $trypan-blue2;
+  color: $trypan-blue2;
+  text-decoration: none;
+}
+
+.backToHome:visited {
+  background: -webkit-linear-gradient(45deg, $purple2, $ultramarine 80%);;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .container {
