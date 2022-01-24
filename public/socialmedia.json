@@ -12,9 +12,9 @@
     "url": "https://www.instagram.com/swingonsunshine/"
   },
   {
-    "name": "email",
+    "name": "contact",
     "alt": "Link to contact me",
     "logo": "/icons/gmail.svg",
-    "url": "#"
+    "url": "/contact"
   }
 ]

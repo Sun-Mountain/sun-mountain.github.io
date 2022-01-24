@@ -9,6 +9,7 @@ export default function Contace() {
         <title>Contact</title>
       </Head>
       <section>
+        Contact Coming soon.
       </section>
     </Layout>
   )
