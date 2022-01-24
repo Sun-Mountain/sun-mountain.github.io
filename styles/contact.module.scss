@@ -1,0 +1,20 @@
+@import '_base';
+
+.contact_card {
+  background-color: $mimi-pink;
+  padding: 10px 10px;
+
+  transition: background-color 1s linear; 
+  -moz-transition: background-color 1s linear;  
+  -webkit-transition: background-color 1s linear; 
+  -ms-transition: background-color 1s linear; 
+
+  h2 {
+    color: $text;
+    margin: 0;
+  }
+}
+
+.contact_card:hover {
+  background-color: $white;
+}
