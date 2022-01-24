@@ -2,7 +2,7 @@ import Link from 'next/link';
 import icons from '../public/socialmedia.json';
 import styles from '../styles/footer.module.scss';
 
-export default function Footer() {
+export default function Footer(home) {
 
   return (
     <footer>
@@ -20,6 +20,15 @@ export default function Footer() {
             </Link>
           </div>
         ))}
+      </div>
+      <div>
+        {!home && (
+          <div className={styles.backToHome}>
+            <Link href="/">
+              <a>← Back to home</a>
+            </Link>
+          </div>
+        )}
       </div>
     </footer>
   )

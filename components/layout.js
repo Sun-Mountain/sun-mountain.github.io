@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Link from 'next/link';
 import styles from '../styles/layout.module.scss';
 
 import Footer from './footer';
@@ -8,7 +7,7 @@ import Nav from './nav';
 const name = 'Nika';
 export const siteTitle = 'Nika Zonnenberg Portfolio';
 
-export default function Layout({ children, home }) {
+export default function Layout({ children }) {
   return (<div className={styles.container}>
       <Head>
         <html lang="eng-US" />
@@ -29,13 +28,6 @@ export default function Layout({ children, home }) {
       <Nav />
       <main>
         {children}
-        {!home && (
-          <div className={styles.backToHome}>
-            <Link href="/">
-              <a>← Back to home</a>
-            </Link>
-          </div>
-        )}
       </main>
       <Footer />
     </div>);

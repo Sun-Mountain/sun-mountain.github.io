@@ -1,9 +1,12 @@
 import Link from 'next/link';
-import cn from 'classnames';
 import nav from '../styles/nav.module.scss';
 import styles from '../styles/layout.module.scss';
+import { useRouter } from 'next/router'
 
 export default function Nav({home, specs}) {
+  const router = useRouter()
+  const currentRoute = router.pathname
+
   return (
     <nav className={styles.header}>
       <div>
@@ -19,14 +22,14 @@ export default function Nav({home, specs}) {
       </div>
       <div className={`${nav.nav_container}`}>
         <Link href="/">
-          <a className={cn({
-            [nav.selected]: home
-          })}>About</a>
+          <a className={currentRoute === '/' ? nav.selected : null}>
+            About
+          </a>
         </Link>
         <Link href="/specs">
-          <a className={cn({
-            [nav.selected]: specs
-          })}>Specs</a>
+          <a className={currentRoute === '/specs' ? nav.selected : null}>
+            Specs
+          </a>
         </Link>
       </div>
     </nav>
