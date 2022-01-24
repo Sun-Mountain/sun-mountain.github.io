@@ -1,18 +1,18 @@
 [
   {
-    "name": "twitter",
+    "iconName": "twitter",
     "alt": "Link to twitter account",
     "logo": "/icons/twitter.svg",
     "url": "https://twitter.com/NikaCodes"
   },
   {
-    "name": "instagram",
+    "iconName": "instagram",
     "alt": "Link to instagram account",
     "logo": "/icons/instagram.svg",
     "url": "https://www.instagram.com/swingonsunshine/"
   },
   {
-    "name": "contact",
+    "iconName": "contact",
     "alt": "Link to contact me",
     "logo": "/icons/gmail.svg",
     "url": "/contact"
