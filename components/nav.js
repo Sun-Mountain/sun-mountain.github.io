@@ -31,6 +31,16 @@ export default function Nav({home, specs}) {
             Specs
           </a>
         </Link>
+        <Link href="/community">
+          <a className={currentRoute === '/community' ? nav.selected : null}>
+            Community
+          </a>
+        </Link>
+        <Link href="/portfolio">
+          <a className={currentRoute === '/portfolio' ? nav.selected : null}>
+            Portfolio
+          </a>
+        </Link>
       </div>
     </nav>
   );
