@@ -35,7 +35,7 @@ workflows:
   Build and deploy:
     jobs:
      - build-for-release:
-      name: Prep release build
-      filters:
-        branches:
-          only: /^main$/
+        name: Prep release build
+        filters:
+          branches:
+            only: /^main$/
