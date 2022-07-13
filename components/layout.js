@@ -3,9 +3,7 @@ import styles from '../styles/layout.module.scss';
 
 import Footer from './footer';
 import Nav from './nav';
-
-const name = 'Nika';
-export const siteTitle = 'Nika Zonnenberg Portfolio';
+export const siteTitle = 'Nicole Zonnenberg Portfolio';
 
 export default function Layout({ children }) {
   return (<div className={styles.container}>
@@ -14,7 +12,7 @@ export default function Layout({ children }) {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Personal portfolio for Nika Zonnenberg."
+          content="Personal portfolio for Nicole Zonnenberg."
         />
         <meta
           property="og:image"

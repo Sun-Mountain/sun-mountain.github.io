@@ -14,27 +14,14 @@ export default function Footer() {
       <div className={styles.icons_container}>
         {icons && icons.length>0 && icons.map(icon => (
           <div className={styles.single_icon}>
-            {icon.iconName === "contact" ?
-              <div>
-                <Link href={icon.url}>
-                  <img
-                    src={icon.logo}
-                    alt={icon.alt}
-                  />
-                </Link>
-              </div>
-              :
-              <div>
-                <Link href={icon.url}>
-                  <a target="_blank">
-                    <img
-                      src={icon.logo}
-                      alt={icon.alt}
-                    />
-                  </a>
-                </Link>
-              </div>
-            }
+            <Link href={icon.url}>
+              <a target="_blank">
+                <img
+                  src={icon.logo}
+                  alt={icon.alt}
+                />
+              </a>
+            </Link>
           </div>
         ))}
       </div>
