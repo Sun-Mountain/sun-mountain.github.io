@@ -11,7 +11,8 @@ jobs:
       tag: "16.15"
     steps:
       - checkout
-      - yarn/install-packages
+      - node/install-packages:
+          pkg-manager: yarn
       - run:
           name: Build code
           command: |
