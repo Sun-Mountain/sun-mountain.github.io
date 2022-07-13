@@ -41,7 +41,6 @@ workflows:
             branches:
               only: 
                 - main
-                - gh-pages
       - do-release:
           name: Deploy to Github Pages
           filters:
