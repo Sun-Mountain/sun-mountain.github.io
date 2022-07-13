@@ -17,7 +17,6 @@ jobs:
           name: Build code
           command: |
             yarn run build
-            yarn run add-domain
       - persist_to_workspace:
           name: Pass build to next job
           root: ./dist/

@@ -4,8 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "add-domain": "echo \"sun-mountain.io\" > build/CNAME",
+    "build": "vue-cli-service build && echo \"sun-mountain.io\" > build/CNAME",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
