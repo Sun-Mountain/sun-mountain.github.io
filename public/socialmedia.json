@@ -10,11 +10,5 @@
     "alt": "Link to instagram account",
     "logo": "/icons/instagram.svg",
     "url": "https://www.instagram.com/swingonsunshine/"
-  },
-  {
-    "name": "contact",
-    "alt": "Link to contact me",
-    "logo": "/icons/gmail.svg",
-    "url": "/contact"
   }
 ]
