@@ -16,7 +16,7 @@ jobs:
       - run:
           name: Build code
           command: |
-            npm run build
+            yarn run build
       - persist_to_workspace:
           name: Pass build to next job
           root: ./dist/
@@ -30,14 +30,7 @@ jobs:
           at: ./dist/
       - gh-pages/deploy:
           setup-git: true
-          ssh-fingerprints: "67:49:0e:96:25:20:a0:35:7a:93:12:27:3e:4b:8d:e8"
-      - slack/notify:
-          template: basic_success_1
-          event: pass
-      - slack/notify:
-          template: basic_fail_1
-          event: fail
-          mentions: '@eritters'
+          ssh-fingerprints: "SHA256:QrQ6b9mnrB2xNHmxPagdk1YXR3mh/Ik55v3M3mnT/r8 npzonnenberg@gmail.com"
 
 
 workflows:
