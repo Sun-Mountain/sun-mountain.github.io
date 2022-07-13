@@ -35,19 +35,6 @@ export default function Home() {
             </a>
           </Link>
         </div>
-        <div className={about.awards}>
-          <h2>Awards</h2>
-          <Link href="https://technical.ly/software-development/reallist-engineers-20200-influential-technologists/">
-            <a target="_blank">
-              Technical.ly RealLIST Engineer of 2020
-            </a>
-          </Link>
-          <Link href="https://fearless.tech/blog/2021/02/22/celebrating-the-fearless-value-award-winners">
-            <a target="_blank">
-              Fearless Value Open Dialogue Award (2021)
-            </a>
-          </Link>
-        </div>
         <div className={about.site}>
           <h2>About This Site</h2>
           <p>
