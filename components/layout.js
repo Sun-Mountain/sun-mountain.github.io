@@ -11,12 +11,6 @@ export default function Layout({ children }) {
       <Head>
         <html lang="eng-US" />
         <link rel="icon" href="/favicon.ico" />
-        <meta
-          name="description"
-          content="Personal portfolio for Nicole Zonnenberg."
-        />
-        <meta name="og:title" content={siteTitle} />
-        <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <Nav />
       <main>
