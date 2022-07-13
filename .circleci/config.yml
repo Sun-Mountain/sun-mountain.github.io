@@ -35,10 +35,15 @@ jobs:
 workflows:
   Build and deploy:
     jobs:
-     - build-for-release:
-        name: Prep release build
-        filters:
-          branches:
-            only: /^main$/
-        requires:
-          - "Prepare release build"
+      - build-for-release:
+          name: Prepare release build
+          filters:
+            branches:
+              only: /^main$/
+      - do-release:
+          name: Deploy to Github Pages
+          filters:
+            branches:
+              only: /^main$/
+          requires:
+            - "Prepare release build"
