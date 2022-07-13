@@ -10,7 +10,7 @@ export default function Nav({home, specs}) {
   return (
     <nav className={styles.header}>
       <div>
-        <h1>Nika Zonnenberg</h1>
+        <h1>Nicole Zonnenberg</h1>
         <h2>
           <Link href="https://fearless.tech/">
             <a target="_blank">
