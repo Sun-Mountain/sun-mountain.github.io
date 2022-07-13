@@ -1,6 +1,6 @@
 <template>
   <img alt="Vue logo" src="./assets/rainbow-sheep.gif">
-  <HelloWorld msg="Nicole Zonnenberg's Portfolio"/>
+  <HelloWorld msg="Nicole Zonnenberg"/>
 </template>
 
 <script>
