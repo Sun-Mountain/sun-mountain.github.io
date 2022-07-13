@@ -39,11 +39,14 @@ workflows:
           name: Prepare release build
           filters:
             branches:
-              only: /^main$/
+              only: 
+                - main
+                - gh-pages
       - do-release:
           name: Deploy to Github Pages
           filters:
             branches:
-              only: /^main$/
+              only:
+                - main
           requires:
             - "Prepare release build"
