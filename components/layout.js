@@ -13,7 +13,7 @@ export default function Layout({ children }) {
           name="description"
           content="Personal portfolio for Nicole Zonnenberg."
         />
-        <meta name="og:title" content='Nicole Zonnenberg Portfolio' />
+        <meta name="og:title" content="Nicole Zonnenberg Portfolio" />
       </Head>
       <Nav />
       <main>
