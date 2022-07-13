@@ -1,7 +1,7 @@
 version: 2.1
 
 orbs:
-  gh-pages: sugarshin/gh-pages@1.0
+  gh-pages: sugarshin/gh-pages@1.0.1
   node: circleci/node@5.0
 
 jobs:
