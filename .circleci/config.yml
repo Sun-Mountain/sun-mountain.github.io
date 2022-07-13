@@ -30,3 +30,12 @@ jobs:
       - ghpages/deploy:
           setup-git: true
           ssh-fingerprints: "bc:fa:a2:63:0a:80:86:44:00:75:be:28:3c:32:0f:36"
+
+workflows:
+  Build and deploy:
+    jobs:
+     - build-for-release:
+      name: Prep release build
+      filters:
+        branches:
+          only: /^main$/
