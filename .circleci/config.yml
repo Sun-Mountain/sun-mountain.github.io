@@ -40,3 +40,5 @@ workflows:
         filters:
           branches:
             only: /^main$/
+        requires:
+          - "Prepare release build"
