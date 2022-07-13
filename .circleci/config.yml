@@ -28,7 +28,7 @@ jobs:
       - checkout
       - attach_workspace:
           at: ./dist/
-      - ghpages/deploy:
+      - gh-pages/deploy:
           setup-git: true
           ssh-fingerprints: "bc:fa:a2:63:0a:80:86:44:00:75:be:28:3c:32:0f:36"
 
