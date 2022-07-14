@@ -11,16 +11,16 @@
 </template>
 
 <style>
-nav {
-  padding: 30px;
-}
+  nav {
+    padding: 30px 0 15px 0;
+  }
 
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
+  nav a {
+    font-weight: bold;
+    color: #2c3e50;
+  }
 
-nav a.router-link-exact-active {
-  color: #42b983;
-}
+  nav a.router-link-exact-active {
+    color: #42b983;
+  }
 </style>
