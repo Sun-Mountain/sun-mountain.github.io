@@ -43,5 +43,6 @@ workflows:
             branches:
               only:
                 - main
+                - gh-pages
           requires:
             - "Prepare release build"

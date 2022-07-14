@@ -1,5 +1,5 @@
 <template>
-  <img alt="Portfolio logo" src="./assets/rainbow-sheep.gif">
+  <img alt="Portfolio logo" src="./assets/images/rainbow-sheep.gif">
   <HelloWorld msg="Nicole Zonnenberg"/>
 </template>
 
