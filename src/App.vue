@@ -2,6 +2,8 @@
 <script setup>
   import {RouterView} from 'vue-router'
   import Navigation from "./components/Navigation.vue";
+
+  import './assets/javascripts/linkNumbering';
 </script>
 <template>
   <header>
