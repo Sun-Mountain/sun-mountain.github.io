@@ -24,6 +24,12 @@
       </p>
     </div>
   </div>
+  <div>
+    <h3>Links</h3>
+    <p>
+      <a href="https://github.com/Sun-Mountain" target="_blank">Github</a> | <a href="https://www.linkedin.com/in/nzonnenberg/" target="_blank">LinkedIn</a> | <a href="https://twitter.com/NikaCodes" target="_blank">Twitter</a>
+    </p>
+  </div>
 </template>
 
 <script>
