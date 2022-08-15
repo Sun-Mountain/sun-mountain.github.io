@@ -1,7 +1,7 @@
 <script setup>
-import {RouterView} from 'vue-router'
-import Navigation from "./components/Navigation.vue";
-import SiteFooter from "./components/SiteFooter.vue";
+  import {RouterView} from 'vue-router';
+  import Navigation from "./components/Navigation.vue";
+  import SiteFooter from "./components/SiteFooter.vue";
 </script>
 
 <template>

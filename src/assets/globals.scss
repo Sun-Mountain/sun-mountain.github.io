@@ -4,14 +4,18 @@ html,
 body {
   background-color: $white;
   color: $charcoal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
   padding: 0;
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a, a:visited {
   color: $rose;
+  transition: color 2s;
 }
 
 a:hover {
