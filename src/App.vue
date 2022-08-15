@@ -1,26 +1,27 @@
-<template>
-  <img alt="Portfolio logo" src="./assets/rainbow-sheep.gif">
-  <HelloWorld msg="Nicole Zonnenberg"/>
-</template>
-
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+<script setup>
+import {RouterView} from 'vue-router'
+import Navigation from "./components/Navigation.vue";
+import SiteFooter from "./components/SiteFooter.vue";
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<template>
+  <div class="container">
+    <header>
+      <Navigation/>
+    </header>
+
+    <main>
+      <RouterView/>
+    </main>
+
+    <footer>
+      <SiteFooter/>
+    </footer>
+  </div>
+</template>
+
+<style lang="scss">
+  @import "./assets/globals";
+  @import "./assets/theme/color_palette";
+  @import "./assets/theme/screen_sizes";
 </style>
