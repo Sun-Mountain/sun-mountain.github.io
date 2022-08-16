@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Lettuce Meet",
+    "languages": ["Ruby on Rails", "PostgreSQL"],
+    "tools": ["Heroku", "GitHub Actions"],
+    "description": "Description Place Holder",
+    "liveLink": "https://www.lettucemeet.app/",
+    "githubLink": "https://github.com/Sun-Mountain/lettuceMeetApp"
+  },
+  {
+    "name": "Personal Portfolio",
+    "languages": ["VueJS"],
+    "tools": ["GitHub Pages", "CircleCI"],
+    "description": "Description Place Holder",
+    "liveLink": "https://sun-mountain.io/#/",
+    "githubLink": "https://github.com/Sun-Mountain/Sun-Mountain.github.io"
+  },
+  {
+    "name": "Student Rooster",
+    "languages": ["Ruby on Rails", "PostgreSQL"],
+    "tools": [],
+    "description": "Description Place Holder",
+    "liveLink": "",
+    "githubLink": "https://github.com/Sun-Mountain/student-rooster"
+  }
+]
