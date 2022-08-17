@@ -8,8 +8,7 @@ const router = createRouter({
     {
       path: '/',
       name: 'homePage',
-      component: HomeView,
-      meta: { showBackLink: false }
+      component: HomeView
     },
     {
       path: '/projects',

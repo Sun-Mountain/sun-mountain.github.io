@@ -18,6 +18,11 @@ nav {
     transition: color 0s;
   }
 
+  .active, .exact-active {
+    background-color: $azure !important;
+    color: $white !important;
+  }
+
   h2 {
     font-weight: 500;
   }
