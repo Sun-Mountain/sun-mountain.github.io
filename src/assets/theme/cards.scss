@@ -1,0 +1,18 @@
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  .card {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+  }
+  
+  .img-container {
+    img {
+      width: 100px;
+      height: auto;
+    }
+  }
+}

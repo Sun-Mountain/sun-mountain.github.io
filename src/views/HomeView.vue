@@ -1,5 +1,8 @@
 <template>
   <div class="main-content">
+    <div>
+      <p>I am a software engineer that is passionate about accessibility, equity, and visibility in tech.</p>
+    </div>
     <h3>Selected Writings</h3>
     <a href="https://dev.to/nikacodes/basic-color-theory-for-web-developers-15a0">Basic Color Theory for Web Developers</a>
     <a href="https://technical.ly/software-development/nicole-zonnenberg-software-career/">How I Got Here: From a chocolate factory to a software firm</a>
