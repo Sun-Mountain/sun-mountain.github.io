@@ -2,6 +2,22 @@ nav {
   margin: 15px;
   text-align: center;
 
+  .navLink, .navLink:visited {
+    background-color: $white;
+    border-radius: 10px;
+    color: $azure;
+    margin: 0 15px;
+    padding: 5px 10px;
+    text-decoration: none;
+    transition: color 0s;
+  }
+
+  .navLink:hover {
+    background-color: $azure;
+    color: $white;
+    transition: color 0s;
+  }
+
   h2 {
     font-weight: 500;
   }

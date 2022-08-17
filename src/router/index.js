@@ -7,8 +7,9 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: HomeView
+      name: 'homePage',
+      component: HomeView,
+      meta: { showBackLink: false }
     },
     {
       path: '/projects',
