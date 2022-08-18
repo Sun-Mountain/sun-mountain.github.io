@@ -33,6 +33,10 @@
     justify-content: space-between;
     padding: 5px 5px 5px 10px;
 
+    h3 {
+      color: $rose;
+    }
+
     .links {
       display: flex;
       justify-content: space-evenly;
