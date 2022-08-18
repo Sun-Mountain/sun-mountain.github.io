@@ -1,18 +1,52 @@
 .cards-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 
   .card {
+    border: $dark_gray 1px solid;
+    border-radius: 15px;
     display: flex;
     flex-direction: row;
-    width: 250px;
+    margin: 15px;
+    padding: 5px;
+    width: 500px;
   }
   
   .img-container {
-    img {
-      width: 100px;
-      height: auto;
+    display: flex;
+    justify-content: center;
+    border-right: $dark_gray 1px solid;
+    padding: 5px 10px 5px 5px;
+
+    img, svg {
+      margin: auto 0;
+      width: 150px;
+      height: 150px;
+    }
+  }
+
+  .proj-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px 5px 5px 10px;
+
+    .links {
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 18px;
+      width: 100%;
+      svg {
+        width: 35px;
+        height: auto;
+      }
+    }
+
+    h3 {
+      margin: 10px 0;
+      text-align: center;
     }
   }
 }
