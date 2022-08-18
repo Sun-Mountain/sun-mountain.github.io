@@ -1,4 +1,45 @@
+<script>
+import myProjects from '../assets/data/projects.json';
+
+export default {
+  data() {
+  	return {
+	    projects: myProjects
+  	}
+	}
+}
+</script>
+
 <template>
+	<ul class="cards-container">
+    <li v-for="(project) in projects" class="card">
+		  <div class="img-container">
+        <img :src="project.logo" width="100px" height="120px" alt="">
+      </div>
+      <div class="proj-about">
+        <div class="description">
+          <h3>
+            {{ project.name }}
+          </h3>
+          <div>
+            {{ project.description }}
+          </div>
+        </div>
+        <div class="links">
+          <a :href="project.githubLink" target="_blank" aria-label="Github link for lettuce meet repository">
+            <font-awesome-icon icon="fa-solid fa-code" />
+          </a>
+          <a v-if="project.isLive && !project.isPortfolio" :href="project.liveLink" target="_blank">
+            <font-awesome-icon icon="fa-solid fa-link" />
+          </a>
+          <font-awesome-icon v-if="!project.isLive" icon="fa-solid fa-link" />
+        </div>
+      </div>
+		</li>
+  </ul>
+</template>
+
+<!-- <template>
   <div class="cards-container">
     <div class="card">
       <div class="img-container">
@@ -55,7 +96,7 @@
             Student Rooster
           </h3>
           <div>
-            Half coding exercise/half attempt to solve a problem for a dance school. The purpose of which is to keep track of what classes students have
+            Half coding exercise/half attempt to solve a problem for a dance school. The purpose of which is to keep track of what classes students have taken.
           </div>
         </div>
         <div class="links">
@@ -67,4 +108,4 @@
       </div>
     </div>
   </div>
-</template>
+</template> -->

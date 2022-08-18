@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  padding: 0;
 
   .card {
     border: $dark_gray 1px solid;
@@ -11,7 +11,7 @@
     flex-direction: row;
     margin: 15px;
     padding: 5px;
-    width: 500px;
+    max-width: 500px;
   }
   
   .img-container {
@@ -47,6 +47,20 @@
     h3 {
       margin: 10px 0;
       text-align: center;
+    }
+  }
+}
+
+@media only screen and (max-width: $small) {
+  .cards-container {  
+    .card {
+      flex-direction: column;
+    }
+
+    .img-container {
+      border-right: 0;
+      border-bottom: $dark_gray 1px solid;
+      padding: 5px 5px 10px 5px;
     }
   }
 }

@@ -44,3 +44,9 @@ a:hover {
 * {
   box-sizing: border-box;
 }
+
+@media only screen and (max-width: $small) {
+  main {
+    padding: 0 18px;
+  }
+}

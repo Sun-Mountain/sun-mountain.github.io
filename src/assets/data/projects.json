@@ -1,26 +1,35 @@
 [
   {
-    "name": "Lettuce Meet",
-    "languages": ["Ruby on Rails", "PostgreSQL"],
-    "tools": ["Heroku", "GitHub Actions"],
-    "description": "Description Place Holder",
-    "liveLink": "https://www.lettucemeet.app/",
-    "githubLink": "https://github.com/Sun-Mountain/lettuceMeetApp"
+    "name": "Personal Portfolio",
+    "description": "Luckily you don't have to go anywhere, because you are already here! But if you're interested in looking inside, check out the github link below.",
+    "githubLink": "https://github.com/Sun-Mountain/Sun-Mountain.github.io",
+    "isLive": true,
+    "isPortfolio": true,
+    "languages": ["VueJS"],
+    "liveLink": "https://sun-mountain.io/#/",
+    "logo": "sheep.svg",
+    "tools": ["GitHub Pages", "CircleCI"]
   },
   {
-    "name": "Personal Portfolio",
-    "languages": ["VueJS"],
-    "tools": ["GitHub Pages", "CircleCI"],
-    "description": "Description Place Holder",
-    "liveLink": "https://sun-mountain.io/#/",
-    "githubLink": "https://github.com/Sun-Mountain/Sun-Mountain.github.io"
+    "name": "Lettuce Meet",
+    "description": "What started as a joke during a bootcamp immersive became an attempt at an application to organize get togethers with friends outside of existing applications.",
+    "githubLink": "https://github.com/Sun-Mountain/lettuceMeetApp",
+    "isLive": true,
+    "isPortfolio": false,
+    "languages": ["Ruby on Rails", "PostgreSQL"],
+    "liveLink": "https://www.lettucemeet.app/",
+    "logo": "lettuce.png",
+    "tools": ["Heroku", "GitHub Actions"]
   },
   {
     "name": "Student Rooster",
+    "description": "Half coding exercise/half attempt to solve a problem for a dance school. The purpose of which is to keep track of what classes students have taken.",
+    "githubLink": "https://github.com/Sun-Mountain/student-rooster",
+    "isLive": false,
+    "isPortfolio": false,
     "languages": ["Ruby on Rails", "PostgreSQL"],
-    "tools": [],
-    "description": "Description Place Holder",
     "liveLink": "",
-    "githubLink": "https://github.com/Sun-Mountain/student-rooster"
+    "logo": "rooster.svg",
+    "tools": []
   }
 ]
