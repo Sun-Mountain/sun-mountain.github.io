@@ -23,14 +23,14 @@ export default {
             <div :class="project.id+'-card flip-card-front'">
               <h4>{{ project.name }}</h4>
               <img :src="'/'+project.portfolio_logo" alt="">
-              <div class="language-container">
-                <img v-for="(lang) in project.languages" :src="'/'+lang.logo" :alt="lang.title+' logo'">
-              </div>
             </div>
           </div>
           <div :class="project.id+'-card flip-card-back'">
             <div class="description-container">
               {{ project.description }}
+            </div>
+            <div class="language-container">
+              <img v-for="(lang) in project.languages" :src="'https://img.shields.io/badge/'+lang.title+'-282C34?logo='+lang.logo+'&logoColor='+lang.logoColor" :alt="lang.title+' logo'" :title="lang.title" />
             </div>
             <a :href="project.githubLink" target="_blank">
               <font-awesome-icon icon="fa-solid fa-code" />

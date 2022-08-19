@@ -8,10 +8,11 @@
     "isPortfolio": true,
     "languages": [{
       "title": "VueJS",
-      "logo": "vue.svg"
+      "logoColor": "4FC08D",
+      "logo": "vuedotjs"
     }, {
       "title": "CircleCI",
-      "logo": "circleci.svg"
+      "logo": "circleci"
     }],
     "liveLink": "https://sun-mountain.io/#/",
     "portfolio_logo": "sheep.svg"
@@ -26,13 +27,15 @@
     "languages": [{
       "title": "Ruby",
       "logoColor": "CC342D",
-      "logo": "ruby.svg"
+      "logo": "ruby"
     }, {
-        "title": "Ruby on Rails",
-        "logo": "rubyonrails.svg"
+        "title": "Rails",
+        "logoColor": "CC0000",
+        "logo": "rubyonrails"
     }, {
         "title": "PostgreSQL",
-        "logo": "postgresql.svg"
+        "logoColor": "4169E1",
+        "logo": "postgresql"
     }],
     "liveLink": "https://www.lettucemeet.app/",
     "portfolio_logo": "lettuce.png"
@@ -46,13 +49,16 @@
     "isPortfolio": false,
     "languages": [{
       "title": "Ruby",
-      "logo": "ruby.svg"
+      "logoColor": "CC342D",
+      "logo": "ruby"
     }, {
-        "title": "Ruby on Rails",
-        "logo": "rubyonrails.svg"
+        "title": "Rails",
+        "logoColor": "CC0000",
+        "logo": "rubyonrails"
     }, {
         "title": "PostgreSQL",
-        "logo": "postgresql.svg"
+        "logoColor": "4169E1",
+        "logo": "postgresql"
     }],
     "liveLink": "",
     "portfolio_logo": "rooster.svg"
