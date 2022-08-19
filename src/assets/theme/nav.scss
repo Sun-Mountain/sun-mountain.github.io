@@ -1,0 +1,35 @@
+nav {
+  margin: 15px;
+  text-align: center;
+
+  .navLink, .navLink:visited {
+    background-color: $white;
+    border-radius: 10px;
+    color: $azure;
+    font-size: 20px;
+    margin: 0 15px;
+    padding: 5px 10px;
+    text-decoration: none;
+    transition: color 0s;
+  }
+
+  .navLink:hover {
+    background-color: $azure;
+    color: $white;
+    transition: color 0s;
+  }
+
+  .active, .exact-active {
+    background-color: $azure !important;
+    color: $white !important;
+  }
+
+  h2 {
+    font-weight: 500;
+  }
+
+  img {
+    width: 50px;
+    height: auto;
+  }
+}
