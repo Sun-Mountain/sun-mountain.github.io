@@ -14,7 +14,7 @@
   {
     "id": "lettuce",
     "name": "Lettuce Meet",
-    "description": "What started as a joke during a bootcamp immersive became an attempt at an application to organize get togethers with friends outside of existing applications.",
+    "description": "An application to organize get togethers with friends and acquaintences.",
     "githubLink": "https://github.com/Sun-Mountain/lettuceMeetApp",
     "isLive": true,
     "isPortfolio": false,
@@ -26,7 +26,7 @@
   {
     "id": "rooster",
     "name": "Student Rooster",
-    "description": "Half coding exercise/half attempt to solve a problem for a dance school. The purpose of which is to keep track of what classes students have taken.",
+    "description": "A student tracker to note which classes students have taken over time.",
     "githubLink": "https://github.com/Sun-Mountain/student-rooster",
     "isLive": false,
     "isPortfolio": false,

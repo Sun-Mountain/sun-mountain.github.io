@@ -30,26 +30,25 @@ export default {
               </div>
             </a>
             <div :class="project.id+'-card flip-card-back'">
-              <div>
-                {{ project.description }}
-
-                <div class="links-container">
-                  <a :href="project.githubLink" target="_blank" aria-label="Github link for lettuce meet repository">
-                    <font-awesome-icon icon="fa-solid fa-code" />
-                  </a>
-                  <a v-if="project.isLive && !project.isPortfolio" :href="project.liveLink" target="_blank">
-                    <font-awesome-icon icon="fa-solid fa-link" />
-                  </a>
-                  <font-awesome-icon v-if="!project.isLive" icon="fa-solid fa-link" />
-                </div>
-              </div>
+              {{ project.description }}
+              <a :href="project.githubLink" target="_blank">
+                <font-awesome-icon icon="fa-solid fa-code" />
+              </a>
+              <a v-if="project.isLive && !project.isPortfolio" :href="project.liveLink" target="_blank">
+                <font-awesome-icon icon="fa-solid fa-link" />
+              </a>
+              <font-awesome-icon v-if="!project.isLive" icon="fa-solid fa-link" class="icon" />
             </div>
           </div>
         </div>
       </div>
     <h3>Selected Writings</h3>
-      <a v-for="(writing) in writings" :href="writing.url" target="_blank">{{ writing.title }}</a>
+      <div class="link-list">
+        <a v-for="(writing) in writings" :href="writing.url" target="_blank">{{ writing.title }}</a>
+      </div>
     <h3>Awards</h3>
-      <a v-for="(award) in awards" :href="award.url" target="_blank">{{ award.title }} ({{ award.year }})</a>
+      <div class="link-list">
+        <a v-for="(award) in awards" :href="award.url" target="_blank">{{ award.title }} ({{ award.year }})</a>
+      </div>
   </div>
 </template>

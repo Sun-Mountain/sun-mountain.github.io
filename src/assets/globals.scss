@@ -21,14 +21,20 @@ main {
   display: flex;
   flex-direction: column;
   text-align: center;
-  
-  a {
-    margin: 0 0 15px 0;
-  }
 
   h3 {
     font-weight: 500;
     margin: 22px 0 18px 0;
+  }
+}
+
+.link-list {
+  display: flex;
+  flex-direction: column;
+
+  a {
+    margin: 0 0 15px 0;
+    z-index: 100;
   }
 }
 
