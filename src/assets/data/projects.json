@@ -1,26 +1,38 @@
 [
   {
-    "name": "Lettuce Meet",
-    "languages": ["Ruby on Rails", "PostgreSQL"],
-    "tools": ["Heroku", "GitHub Actions"],
-    "description": "Description Place Holder",
-    "liveLink": "https://www.lettucemeet.app/",
-    "githubLink": "https://github.com/Sun-Mountain/lettuceMeetApp"
-  },
-  {
+    "id": "portfolio",
     "name": "Personal Portfolio",
+    "description": "For more indepth information about me and my portfolio, check out the github link.",
+    "githubLink": "https://github.com/Sun-Mountain/Sun-Mountain.github.io",
+    "isLive": true,
+    "isPortfolio": true,
     "languages": ["VueJS"],
-    "tools": ["GitHub Pages", "CircleCI"],
-    "description": "Description Place Holder",
     "liveLink": "https://sun-mountain.io/#/",
-    "githubLink": "https://github.com/Sun-Mountain/Sun-Mountain.github.io"
+    "logo": "sheep.svg",
+    "tools": ["GitHub Pages", "CircleCI"]
   },
   {
-    "name": "Student Rooster",
+    "id": "lettuce",
+    "name": "Lettuce Meet",
+    "description": "An application to organize get togethers with friends and acquaintences.",
+    "githubLink": "https://github.com/Sun-Mountain/lettuceMeetApp",
+    "isLive": true,
+    "isPortfolio": false,
     "languages": ["Ruby on Rails", "PostgreSQL"],
-    "tools": [],
-    "description": "Description Place Holder",
+    "liveLink": "https://www.lettucemeet.app/",
+    "logo": "lettuce.png",
+    "tools": ["Heroku", "GitHub Actions"]
+  },
+  {
+    "id": "rooster",
+    "name": "Student Rooster",
+    "description": "A student tracker to note which classes students have taken over time.",
+    "githubLink": "https://github.com/Sun-Mountain/student-rooster",
+    "isLive": false,
+    "isPortfolio": false,
+    "languages": ["Ruby on Rails", "PostgreSQL"],
     "liveLink": "",
-    "githubLink": "https://github.com/Sun-Mountain/student-rooster"
+    "logo": "rooster.svg",
+    "tools": []
   }
 ]

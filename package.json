@@ -16,6 +16,7 @@
     "@fortawesome/vue-fontawesome": "^3.0.1",
     "@testing-library/vue": "^6.6.0",
     "sass": "^1.52.3",
+    "vite-svg-loader": "^3.4.0",
     "vue": "^3.2.36",
     "vue-router": "^4.0.15"
   },
