@@ -14,21 +14,21 @@ body {
 }
 
 main {
-  padding: 18px;
-}
-
-.main-content {
-  display: flex;
-  flex-direction: column;
+  padding: 0 18px 18px 18px;
   text-align: center;
-  
-  a {
-    margin: 0 0 15px 0;
-  }
-
   h3 {
     font-weight: 500;
     margin: 22px 0 18px 0;
+  }
+}
+
+.link-list {
+  display: flex;
+  flex-direction: column;
+
+  a {
+    margin: 0 0 15px 0;
+    z-index: 100;
   }
 }
 
@@ -43,4 +43,10 @@ a:hover {
 
 * {
   box-sizing: border-box;
+}
+
+@media only screen and (max-width: $small) {
+  main {
+    padding: 0 18px;
+  }
 }

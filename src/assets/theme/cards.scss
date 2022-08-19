@@ -1,52 +1,118 @@
+@import './color_palette.scss';
+
 .cards-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  max-width: 800px;
+}
 
-  .card {
-    border: $dark_gray 1px solid;
-    border-radius: 15px;
+.flip-card {
+  background-color: transparent;
+  width: 200px;
+  height: 250px;
+  margin: 0 8px 18px 8px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+
+/* This container is needed to position the front and back side */
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+
+  padding: 5px;
+
+  img {
+    width: 120px;
+    height: auto;
+  }
+}
+
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+
+.flip-card:hover .flip-card-inner,
+.flip-card:focus-within .flip-card-inner,
+.flip-card:active .flip-card-inner,
+.flip-card:focus .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+
+/* Position the front and back side */
+
+.flip-card-front,
+.flip-card-back {
+  border-radius: 12px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  /* Safari */
+  backface-visibility: hidden;
+}
+
+
+/* Style the front side (fallback if image is missing) */
+
+.flip-card-front {
+  color: $white;
+  color: $black;
+}
+
+
+/* Style the back side */
+
+.flip-card-back {
+  background-color: $white;
+  color: $charcoal;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  padding: 12px 8px 18px 8px;
+  transform: rotateY(180deg);
+
+  a, .icon {
+    font-size: 32px;
+  }
+
+  .links-container {
     display: flex;
     flex-direction: row;
-    margin: 15px;
-    padding: 5px;
-    width: 500px;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+    width: 100%;
   }
-  
-  .img-container {
-    display: flex;
-    justify-content: center;
-    border-right: $dark_gray 1px solid;
-    padding: 5px 10px 5px 5px;
+}
 
-    img, svg {
-      margin: auto 0;
-      width: 150px;
-      height: 150px;
-    }
+.portfolio-card {
+  border: $rose 3px solid;
+
+  h4 {
+    color: $rose;
   }
+}
 
-  .proj-about {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 5px 5px 5px 10px;
+.lettuce-card {
+  border: #5dc379 3px solid;
 
-    .links {
-      display: flex;
-      justify-content: space-evenly;
-      margin-top: 18px;
-      width: 100%;
-      svg {
-        width: 35px;
-        height: auto;
-      }
-    }
+  h4 {
+    color: #3e8451;
+  }
+}
 
-    h3 {
-      margin: 10px 0;
-      text-align: center;
-    }
+.rooster-card {
+  border: #2771bc 3px solid;
+
+  h4 {
+    color: #2771bc;
   }
 }

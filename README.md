@@ -1,3 +1,14 @@
-# Welcome to My Personal Portfolio
+# Welcome to My Personal Portfolio Page
 
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/Sun-Mountain/Sun-Mountain.github.io/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/Sun-Mountain/Sun-Mountain.github.io/tree/main) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/sun-mountain/Sun-Mountain.github.io)
+We are currently on version 7.
+
+Status: [![CircleCI](https://dl.circleci.com/status-badge/img/gh/Sun-Mountain/Sun-Mountain.github.io/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/Sun-Mountain/Sun-Mountain.github.io/tree/main) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/sun-mountain/Sun-Mountain.github.io)
+
+Live: [https://sun-mountain.io]
+
+On this site you will find:
+- Articles that I have Written
+
+### This Website Uses
+- VueJS
+- CircleCI (for deployment)
