@@ -63,7 +63,6 @@
 /* Style the front side (fallback if image is missing) */
 
 .flip-card-front {
-  color: $white;
   color: $black;
 }
 
@@ -114,5 +113,18 @@
 
   h4 {
     color: #2771bc;
+  }
+}
+
+.language-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  img {
+    margin: 8px;
+    width: 42px;
+    height: auto;
   }
 }

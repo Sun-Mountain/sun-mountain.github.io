@@ -19,12 +19,15 @@ export default {
     <div class="cards-container">
       <div v-for="(project) in projects" class="flip-card">
         <div class="flip-card-inner">
-          <a href="#" id="flip-card-inner">
+          <div id="flip-card-inner">
             <div :class="project.id+'-card flip-card-front'">
               <h4>{{ project.name }}</h4>
-              <img :src="'/'+project.logo" alt="">
+              <img :src="'/'+project.portfolio_logo" alt="">
+              <div class="language-container">
+                <img v-for="(lang) in project.languages" :src="'/'+lang.logo" :alt="lang.title+' logo'">
+              </div>
             </div>
-          </a>
+          </div>
           <div :class="project.id+'-card flip-card-back'">
             <div class="description-container">
               {{ project.description }}

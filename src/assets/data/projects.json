@@ -6,9 +6,15 @@
     "githubLink": "https://github.com/Sun-Mountain/Sun-Mountain.github.io",
     "isLive": true,
     "isPortfolio": true,
-    "languages": ["VueJS"],
+    "languages": [{
+      "title": "VueJS",
+      "logo": "vue.svg"
+    }, {
+      "title": "CircleCI",
+      "logo": "circleci.svg"
+    }],
     "liveLink": "https://sun-mountain.io/#/",
-    "logo": "sheep.svg",
+    "portfolio_logo": "sheep.svg",
     "tools": ["GitHub Pages", "CircleCI"]
   },
   {
@@ -18,9 +24,19 @@
     "githubLink": "https://github.com/Sun-Mountain/lettuceMeetApp",
     "isLive": true,
     "isPortfolio": false,
-    "languages": ["Ruby on Rails", "PostgreSQL"],
+    "languages": [{
+      "title": "Ruby",
+      "logoColor": "CC342D",
+      "logo": "ruby.svg"
+    }, {
+        "title": "Ruby on Rails",
+        "logo": "rubyonrails.svg"
+    }, {
+        "title": "PostgreSQL",
+        "logo": "postgresql.svg"
+    }],
     "liveLink": "https://www.lettucemeet.app/",
-    "logo": "lettuce.png",
+    "portfolio_logo": "lettuce.png",
     "tools": ["Heroku", "GitHub Actions"]
   },
   {
@@ -30,9 +46,18 @@
     "githubLink": "https://github.com/Sun-Mountain/student-rooster",
     "isLive": false,
     "isPortfolio": false,
-    "languages": ["Ruby on Rails", "PostgreSQL"],
+    "languages": [{
+      "title": "Ruby",
+      "logo": "ruby.svg"
+    }, {
+        "title": "Ruby on Rails",
+        "logo": "rubyonrails.svg"
+    }, {
+        "title": "PostgreSQL",
+        "logo": "postgresql.svg"
+    }],
     "liveLink": "",
-    "logo": "rooster.svg",
+    "portfolio_logo": "rooster.svg",
     "tools": []
   }
 ]
