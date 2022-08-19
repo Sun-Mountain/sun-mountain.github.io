@@ -16,7 +16,7 @@ jobs:
       - run:
           name: Build code
           command: |
-            yarn run build
+            yarn vite
       - persist_to_workspace:
           name: Pass build to next job
           root: ./dist/
