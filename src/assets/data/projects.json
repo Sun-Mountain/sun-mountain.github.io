@@ -1,7 +1,8 @@
 [
   {
+    "id": "portfolio",
     "name": "Personal Portfolio",
-    "description": "Luckily you don't have to go anywhere, because you are already here! But if you're interested in looking inside, check out the github link below.",
+    "description": "For more indepth information about me and my portfolio, check out the github link.",
     "githubLink": "https://github.com/Sun-Mountain/Sun-Mountain.github.io",
     "isLive": true,
     "isPortfolio": true,
@@ -11,8 +12,9 @@
     "tools": ["GitHub Pages", "CircleCI"]
   },
   {
+    "id": "lettuce",
     "name": "Lettuce Meet",
-    "description": "What started as a joke during a bootcamp immersive became an attempt at an application to organize get togethers with friends outside of existing applications.",
+    "description": "An application to organize get togethers with friends and acquaintences.",
     "githubLink": "https://github.com/Sun-Mountain/lettuceMeetApp",
     "isLive": true,
     "isPortfolio": false,
@@ -22,8 +24,9 @@
     "tools": ["Heroku", "GitHub Actions"]
   },
   {
+    "id": "rooster",
     "name": "Student Rooster",
-    "description": "Half coding exercise/half attempt to solve a problem for a dance school. The purpose of which is to keep track of what classes students have taken.",
+    "description": "A student tracker to note which classes students have taken over time.",
     "githubLink": "https://github.com/Sun-Mountain/student-rooster",
     "isLive": false,
     "isPortfolio": false,
