@@ -14,8 +14,7 @@
       "logo": "circleci.svg"
     }],
     "liveLink": "https://sun-mountain.io/#/",
-    "portfolio_logo": "sheep.svg",
-    "tools": ["GitHub Pages", "CircleCI"]
+    "portfolio_logo": "sheep.svg"
   },
   {
     "id": "lettuce",
@@ -36,8 +35,7 @@
         "logo": "postgresql.svg"
     }],
     "liveLink": "https://www.lettucemeet.app/",
-    "portfolio_logo": "lettuce.png",
-    "tools": ["Heroku", "GitHub Actions"]
+    "portfolio_logo": "lettuce.png"
   },
   {
     "id": "rooster",
@@ -57,7 +55,6 @@
         "logo": "postgresql.svg"
     }],
     "liveLink": "",
-    "portfolio_logo": "rooster.svg",
-    "tools": []
+    "portfolio_logo": "rooster.svg"
   }
 ]

@@ -43,6 +43,9 @@ export default {
         </div>
       </div>
     </div>
+    <div>
+      Want to see more? Visit my <a href="https://github.com/Sun-Mountain" target="_blank">GitHub</a>.
+    </div>
   <h3>Selected Writings</h3>
     <div class="link-list">
       <a v-for="(writing) in writings" :href="writing.url" target="_blank">{{ writing.title }}</a>
