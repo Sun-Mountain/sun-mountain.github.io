@@ -30,7 +30,9 @@ export default {
               </div>
             </a>
             <div :class="project.id+'-card flip-card-back'">
-              {{ project.description }}
+              <div class="description-container">
+                {{ project.description }}
+              </div>
               <a :href="project.githubLink" target="_blank">
                 <font-awesome-icon icon="fa-solid fa-code" />
               </a>

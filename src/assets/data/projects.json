@@ -2,7 +2,7 @@
   {
     "id": "portfolio",
     "name": "Personal Portfolio",
-    "description": "Luckily you don't have to go anywhere, because you are already here! But if you're interested in looking inside, check out the github link below.",
+    "description": "For more indepth information about me and my portfolio, check out the github link.",
     "githubLink": "https://github.com/Sun-Mountain/Sun-Mountain.github.io",
     "isLive": true,
     "isPortfolio": true,
