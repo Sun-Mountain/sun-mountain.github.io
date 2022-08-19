@@ -37,15 +37,12 @@ workflows:
     jobs:
       - build-for-release:
           name: Prepare release build
-          filters:
-            branches:
-              only: 
-                - main
       - do-release:
           name: Deploy to Github Pages
           filters:
             branches:
               only:
                 - main
+                - gh-pages
           requires:
             - "Prepare release build"
