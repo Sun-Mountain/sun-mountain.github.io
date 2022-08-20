@@ -11,6 +11,10 @@
       "logoColor": "4FC08D",
       "logo": "vuedotjs"
     }, {
+      "title": "Vite",
+      "logoColor": "#646CFF",
+      "logo": "vite"
+    }, {
       "title": "CircleCI",
       "logo": "circleci"
     }],
