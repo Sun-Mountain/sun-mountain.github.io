@@ -5,13 +5,14 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  margin: 0 0 15px 0;
   max-width: 800px;
 }
 
 .flip-card {
   background-color: transparent;
   width: 200px;
-  height: 250px;
+  height: 275px;
   margin: 0 8px 18px 8px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
@@ -63,8 +64,19 @@
 /* Style the front side (fallback if image is missing) */
 
 .flip-card-front {
-  color: $white;
   color: $black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  h4 {
+    font-size: 18px;
+    margin: 0;
+  }
+
+  img {
+    margin: 0 auto;
+  }
 }
 
 
@@ -94,6 +106,7 @@
 }
 
 .portfolio-card {
+  background-color: rgb(250, 228, 239);
   border: $rose 3px solid;
 
   h4 {
@@ -102,6 +115,7 @@
 }
 
 .lettuce-card {
+  background-color: #e0f5e6;
   border: #5dc379 3px solid;
 
   h4 {
@@ -110,9 +124,27 @@
 }
 
 .rooster-card {
+  background-color: #cde0f2;
   border: #2771bc 3px solid;
 
   h4 {
     color: #2771bc;
   }
+}
+
+.language-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  img {
+    margin: 8px;
+    height: 25px;
+    width: auto;
+  }
+}
+
+.vueSvg {
+  fill: #4169E1;
 }
