@@ -26,7 +26,7 @@
     "name": "Lettuce Meet",
     "description": "An application to organize get togethers with friends and acquaintences.",
     "githubLink": "https://github.com/Sun-Mountain/lettuceMeetApp",
-    "isLive": true,
+    "isLive": false,
     "isPortfolio": false,
     "languages": [{
       "title": "Ruby",
