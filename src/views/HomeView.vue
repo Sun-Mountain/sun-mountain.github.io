@@ -33,12 +33,11 @@ export default {
               <img v-for="(lang) in project.languages" :src="'https://img.shields.io/badge/'+lang.title+'-282C34?logo='+lang.logo+'&logoColor='+lang.logoColor" :alt="lang.title+' logo'" :title="lang.title" />
             </div>
             <a :href="project.githubLink" target="_blank">
-              <font-awesome-icon icon="fa-solid fa-code" />
+              <font-awesome-icon icon="fa-solid fa-code" />&nbsp; Github Repo
             </a>
-            <a v-if="project.isLive && !project.isPortfolio" :href="project.liveLink" target="_blank">
-              <font-awesome-icon icon="fa-solid fa-link" />
+            <a v-show="project.isLive && !project.isPortfolio" :href="project.liveLink" target="_blank">
+              <font-awesome-icon icon="fa-solid fa-magnifying-glass" />&nbsp; Take a Look
             </a>
-            <font-awesome-icon v-if="!project.isLive" icon="fa-solid fa-link" class="icon" />
           </div>
         </div>
       </div>
