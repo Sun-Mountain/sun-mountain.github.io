@@ -92,7 +92,11 @@
   padding: 12px 8px 18px 8px;
   transform: rotateY(180deg);
 
-  a, .icon {
+  a {
+    text-decoration: none;
+  }
+
+  .icon {
     font-size: 32px;
   }
 
@@ -123,7 +127,7 @@
   }
 }
 
-.rooster-card {
+.calendar-card {
   background-color: #cde0f2;
   border: #2771bc 3px solid;
 

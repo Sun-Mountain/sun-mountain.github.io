@@ -24,7 +24,7 @@
   {
     "id": "lettuce",
     "name": "Lettuce Meet",
-    "description": "An application to organize get togethers with friends and acquaintences.",
+    "description": "An application to organize get togethers with friends and acquaintances.",
     "githubLink": "https://github.com/Sun-Mountain/lettuceMeetApp",
     "isLive": false,
     "isPortfolio": false,
@@ -45,26 +45,22 @@
     "portfolio_logo": "lettuce.png"
   },
   {
-    "id": "rooster",
-    "name": "Student Rooster",
+    "id": "calendar",
+    "name": "GenCon Calendar",
     "description": "A student tracker to note which classes students have taken over time.",
-    "githubLink": "https://github.com/Sun-Mountain/student-rooster",
-    "isLive": false,
+    "githubLink": "https://github.com/Sun-Mountain/GenConCal",
+    "isLive": true,
     "isPortfolio": false,
     "languages": [{
-      "title": "Ruby",
-      "logoColor": "CC342D",
-      "logo": "ruby"
+      "title": "TypeScript",
+      "logoColor": "3178C6",
+      "logo": "typescript"
     }, {
-        "title": "Rails",
-        "logoColor": "CC0000",
-        "logo": "rubyonrails"
-    }, {
-        "title": "PostgreSQL",
-        "logoColor": "4169E1",
-        "logo": "postgresql"
+        "title": "NextJS",
+        "logoColor": "FFFFFF",
+        "logo": "nextdotjs"
     }],
-    "liveLink": "",
-    "portfolio_logo": "rooster.svg"
+    "liveLink": "https://gen-con-cal.vercel.app/",
+    "portfolio_logo": "calendar.png"
   }
 ]
