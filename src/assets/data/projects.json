@@ -47,7 +47,7 @@
   {
     "id": "calendar",
     "name": "GenCon Calendar",
-    "description": "A student tracker to note which classes students have taken over time.",
+    "description": "A schedule helper for GenCon, a popular board game and RPG convention with over 16k events.",
     "githubLink": "https://github.com/Sun-Mountain/GenConCal",
     "isLive": true,
     "isPortfolio": false,
