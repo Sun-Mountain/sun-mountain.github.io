@@ -2,8 +2,8 @@
   {
     "id": "portfolio",
     "name": "Personal Portfolio",
-    "description": "For more indepth information about me and my portfolio, check out the github link.",
-    "githubLink": "https://github.com/Sun-Mountain/Sun-Mountain.github.io",
+    "description": "For more in depth information about me and my portfolio, check out the github link.",
+    "githubLink": "https://github.com/Sun-Mountain",
     "isLive": true,
     "isPortfolio": true,
     "languages": [{
@@ -14,9 +14,6 @@
       "title": "Vite",
       "logoColor": "#646CFF",
       "logo": "vite"
-    }, {
-      "title": "CircleCI",
-      "logo": "circleci"
     }],
     "liveLink": "https://sun-mountain.io/#/",
     "portfolio_logo": "sheep.svg"
@@ -60,7 +57,7 @@
         "logoColor": "FFFFFF",
         "logo": "nextdotjs"
     }],
-    "liveLink": "https://gen-con-cal.vercel.app/",
+    "liveLink": "https://genconcal.com/",
     "portfolio_logo": "calendar.png"
   }
 ]
