@@ -8,9 +8,33 @@ $darkblue: #0080FF;
 $grey: #7e7e7e;
 $darkgrey: #4a4a4a;
 
+$card1: #fcfaeb;
+$card2: #f5eeba;
+$card3: #f0e493;
+$card4: #7d774d;
+
 // base
 $font-color: $darkgrey;
 $layout-max-width: 56rem;
 
 // header
 $title-size: 3rem;
+
+// card
+$card-bg: $card1;
+$card-title-color: $card4;
+$card-border: $card3;
+$card-color: $card4;
+$tool-bg: $card4;
+$tool-text: $card1;
+
+// articles
+$article-wrapper-bg: $card1;
+$article-wrapper-color: $card4;
+$article-wrapper-border: $card3;
+$article-divider: $card4;
+$subtitle-color: $grey;
+
+// links
+$link-color: $card4;
+$link-hover: $darkgrey;

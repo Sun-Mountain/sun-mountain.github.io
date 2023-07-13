@@ -1,9 +1,17 @@
 .header-title {
   font-family: 'Courier New', Courier, monospace;
   font-size: $title-size;
-  padding-top: 4rem;
+  margin: 0;
+  padding-top: 3rem;
 }
 
-.welcome-hello {
-  font-weight: 700;
+.section-title {
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 2rem;
+  margin-bottom: 0;
+  text-transform: lowercase;
+}
+
+.section-title::after {
+  content: '.'
 }
