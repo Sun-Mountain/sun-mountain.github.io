@@ -7,7 +7,7 @@ export default function Header () {
       <div>
         I&apos;m Nicole Zonnenberg, a software engineer <Link href='https://fearless.tech/' target='_blank'>@Fearless</Link>.<br /><br />
         Passionate about accessibility, equity, and visibility in tech, I work in government and private spaces to improve tech and tech literacy.<br /><br />
-        In my free time, I enjoy artistic crafts, circus, and playing board games and TTRPGs with friends.
+        In my free time, I enjoy painting, crochet, circus, and playing board games and TTRPGs with friends.
       </div>
     </section>
   )
