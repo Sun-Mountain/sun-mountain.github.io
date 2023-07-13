@@ -1,0 +1,87 @@
+.cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project-card {
+  background-color: $card-bg;
+  border-bottom: 1px solid $card-border;
+  color: $card-color;
+  display: flex;
+  flex-direction: column;
+  margin:  15px auto;
+  max-width: 270px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-title {
+  color: $card-title-color;
+  font-family: 'Courier New', Courier, monospace;
+  border-top: 1px solid $card-border;
+  border-left: 1px solid $card-border;
+  font-weight: 700;
+  padding: 1rem 2.48rem 1rem 1rem;
+  width: 100%;
+}
+
+.right-border {
+  border-right: 1px solid $card-border;
+}
+
+.card-title::after {
+  content: '.'
+}
+
+.card-body {
+  border-left: 1px solid $card-border;
+  border-right: 1px solid $card-border;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  padding: 0.5rem 1rem;
+}
+
+.open-link-container {
+  display: flex;
+  padding: 16px 16.5px;
+  border-top: 1px solid $card-border;
+  border-right: 1px solid $card-border;
+}
+
+.open-link-container:hover {
+  background: linear-gradient(225deg, #FFF 50%, $card3 50%);
+  border-right: 0;
+  border-top: 0;
+}
+
+.links {
+  border-left: 1px solid $card-border;
+  border-right: 1px solid $card-border;
+  display: flex;
+  font-size: 1.75rem;
+  justify-content: center;
+  padding-bottom: 0.5rem;
+}
+
+.tools-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding-top: 0.75rem;
+
+  .tool-item {
+    background-color: $tool-bg;
+    border-radius: 15px 15px;
+    color: $tool-text;
+    margin: 5px 8px;
+    padding: 3px 12px;
+  }
+}

@@ -1,11 +1,11 @@
 import Header from '@/app/components/Header'
-import UnderConstruction from '@/app/components/UnderConstruction'
+import Projects from '@/app/components/Projects'
 
 export default function Home() {
   return (
     <main>
       <Header />
-      <UnderConstruction />
+      <Projects />
     </main>
   )
 }

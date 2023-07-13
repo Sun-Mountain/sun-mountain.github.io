@@ -1,0 +1,17 @@
+[{
+  "name": "Portfolio",
+  "githubLink": "https://github.com/Sun-Mountain/Sun-Mountain.github.io",
+  "liveLink": "https://github.com/Sun-Mountain",
+  "description": "For more of my projects, visit my github where you can find repos for all of my public projects."
+}, {
+  "name": "Lettuce Meet",
+  "githubLink": "https://github.com/Sun-Mountain/lettuceMeetApp",
+  "description": "A calendar app for event organizing.",
+  "languagesAndTools": ["Ruby on Rails", "VueJS"]
+}, {
+  "name": "GenCon Calendar",
+  "githubLink": "https://github.com/Sun-Mountain/genConCal",
+  "liveLink": "https://genconcol.com",
+  "description": "Application that helps search for and filter over 19,000 events for GenCon, a board game and RPG convention.",
+  "languagesAndTools": ["NextJS"]
+}]
