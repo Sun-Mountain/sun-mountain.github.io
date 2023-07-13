@@ -11,7 +11,7 @@
 }, {
   "name": "GenCon Calendar",
   "githubLink": "https://github.com/Sun-Mountain/genConCal",
-  "liveLink": "https://genconcol.com",
+  "liveLink": "https://genconcal.com",
   "description": "Application that helps search for and filter over 19,000 events for GenCon, a board game and RPG convention.",
   "languagesAndTools": ["NextJS"]
 }]
