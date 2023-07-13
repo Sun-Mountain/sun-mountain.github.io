@@ -1,7 +1,7 @@
 export default function Links () {
   return (
-    <div>
+    <section>
       Links
-    </div>
+    </section>
   )
 }

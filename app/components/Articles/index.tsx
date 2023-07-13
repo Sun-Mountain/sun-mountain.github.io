@@ -1,7 +1,7 @@
 export default function Articles () {
   return (
-    <div>
+    <section>
       Articles
-    </div>
+    </section>
   )
 }
