@@ -5,9 +5,9 @@ export default function Articles () {
   return (
     <section>
       <h2 className='section-title'>Selected Articles</h2>
-      <div>
+      <div id='article-wrapper'>
         {ArticleList.map((article, index) => {
-          return <ArticleListing key={index} article={article} />
+          return <ArticleListing key={index} article={article} index={index} />
         })}
       </div>
     </section>

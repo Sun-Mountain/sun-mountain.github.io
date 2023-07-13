@@ -1,0 +1,27 @@
+#article-wrapper {
+  background-color: $article-wrapper-bg;
+  border: 1px solid $article-wrapper-border;
+  margin: 25px auto;
+  max-width: 85%;
+  padding: 0 1rem;
+}
+
+.article-divider {
+  border-top: 1px dashed $article-divider;
+  margin: 0 auto;
+  width: 95%;
+}
+
+.article-listing {
+  padding: 1rem 0.5rem;
+}
+
+.article-title {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.article-subtitle {
+  color: $subtitle-color;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+}
