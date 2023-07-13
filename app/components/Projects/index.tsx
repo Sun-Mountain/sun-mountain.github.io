@@ -1,5 +1,5 @@
 import ProjectList from '@/app/data/projects.json'
-import ProjectCard from '../ProjectCard'
+import ProjectCard from './ProjectCard'
 
 export default function Projects () {
   return (
