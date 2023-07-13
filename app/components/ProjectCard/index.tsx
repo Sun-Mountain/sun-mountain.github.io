@@ -29,7 +29,7 @@ export default function ProjectCard ({
             {name}
           </div>
           {liveLink && (
-            <Link href={liveLink} className='open-link-container'>
+            <Link href={liveLink} className='open-link-container' target='_blank'>
               <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
             </Link>
           )}
@@ -50,7 +50,7 @@ export default function ProjectCard ({
         </div>
         <div className='links'>
           {githubLink && (
-            <Link href={githubLink}>
+            <Link href={githubLink} target='_blank'>
               <FontAwesomeIcon icon={faGithub} />
             </Link>
           )}
