@@ -2,6 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding: 0 10px;
 }
 
 .project-card {
@@ -84,5 +85,12 @@
     color: $tool-text;
     margin: 5px 8px;
     padding: 3px 12px;
+  }
+}
+
+@media screen and (max-width: 618px) {
+  .project-card {
+    width: 100%;
+    max-width: 100%;
   }
 }
