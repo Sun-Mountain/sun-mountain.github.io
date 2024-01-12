@@ -4,10 +4,11 @@
   "liveLink": "https://github.com/Sun-Mountain",
   "description": "For more of my projects, visit my github where you can find repos for all of my public projects."
 }, {
-  "name": "Lettuce Meet",
-  "githubLink": "https://github.com/Sun-Mountain/lettuceMeetApp",
-  "description": "A calendar app for event organizing.",
-  "languagesAndTools": ["Ruby on Rails", "VueJS", "TypeScript"]
+  "name": "Student Rooster",
+  "githubLink": "https://github.com/Sun-Mountain/student-rooster",
+  "liveLink": "https://student-rooster.fly.dev/",
+  "description": "An application that allows teachers to track students' class history.",
+  "languagesAndTools": ["Ruby on Rails", "fly.io", "PostgreSQL"]
 }, {
   "name": "GenCon Calendar",
   "githubLink": "https://github.com/Sun-Mountain/genConCal",
