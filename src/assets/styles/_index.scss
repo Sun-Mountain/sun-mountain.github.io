@@ -10,7 +10,7 @@ body {
   line-height: 1.5;
   color: $onyx;
   margin: 0;
-  padding: 2rem;
+  padding: 2rem 3rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -18,4 +18,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   color: $eerie-black;
   margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    padding: 1rem;
+  }  
 }
