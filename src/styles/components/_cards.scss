@@ -5,3 +5,10 @@
 .card-container + .card-container {
   border-top: 1px dashed $french-gray-2;
 }
+
+.card {
+  .heading {
+    display: flex;
+    justify-content: space-between;
+  }
+}

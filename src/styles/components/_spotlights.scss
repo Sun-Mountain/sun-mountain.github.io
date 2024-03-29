@@ -28,3 +28,12 @@
   margin: 1.5rem 0;
   padding: 1rem;
 }
+
+.icons-container {
+  svg {
+    fill: $outer-space;
+    margin: 0 .5rem;
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+}

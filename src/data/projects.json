@@ -1,10 +1,13 @@
 [{
   "title": "GenCon Calendar",
+  "github": "https://github.com/Sun-Mountain/GenConCal",
   "liveLink": "https://genconcal.com"
 },{
   "title": "Shelf Esteem",
+  "github": "https://github.com/Sun-Mountain/shelf-esteem/",
   "liveLink": "https://shelf-esteem.fly.dev"
 },{
   "title": "Student Rooster",
+  "github": "https://github.com/Sun-Mountain/student-rooster",
   "liveLink": "https://student-rooster.fly.dev/"
 }]

@@ -1,12 +1,18 @@
-import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLink } from '@fortawesome/free-solid-svg-icons';
+import { faGithubAlt } from '@fortawesome/free-brands-svg-icons';
 
 const PortfolioCard = ({
   project: {
-    title
+    title,
+    github,
+    liveLink
   }
 }: {
   project: {
-    title: string
+    title: string;
+    github?: string;
+    liveLink?: string;
   }
 }) => {
   return (
@@ -16,6 +22,14 @@ const PortfolioCard = ({
           <h3>
             {title}
           </h3>
+          <div className='icons-container'>
+            {liveLink && (
+              <FontAwesomeIcon icon={faLink} />
+            )}
+            {github && (
+              <FontAwesomeIcon icon={faGithubAlt} />
+            )}
+          </div>
         </div>
       </div>
     </div>
