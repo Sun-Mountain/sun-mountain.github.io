@@ -11,7 +11,7 @@ const SingleArticle = ({
   article: {
     title: string;
     description?: string;
-    date: string;
+    date?: string;
     link: string;
   }
 }) => {

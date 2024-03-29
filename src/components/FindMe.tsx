@@ -39,7 +39,7 @@ const FindMe = () => {
           
           return (
             <div className='link-container'>
-              <Link href={item.url} target="_blank" alt={item.alt}>
+              <Link href={item.url} target="_blank">
                 {findIcon(item.site)}
               </Link>
             </div>
