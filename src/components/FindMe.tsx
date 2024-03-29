@@ -38,7 +38,7 @@ const FindMe = () => {
         {SocialMediaList.map((item, index) => {
           
           return (
-            <div className='link-container'>
+            <div key={index} className='link-container'>
               <Link href={item.url} target="_blank">
                 {findIcon(item.site)}
               </Link>
