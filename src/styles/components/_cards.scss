@@ -7,8 +7,72 @@
 }
 
 .card {
-  .heading {
+  display: flex;
+  justify-content: space-between;
+
+  ul {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0;
+    min-width: 200px;
+
+    li {
+      border-radius: 1rem;
+      color: $white;
+      padding: 8px 12px 5px 12px;
+
+      margin: 5px;
+
+      &:hover {
+        cursor: default;
+      }
+    }
+
+    @for $i from 1 through length($colors-dark) {
+      li:nth-child(#{$i}) {
+        background-color: nth($colors-dark, $i);
+      }
+    }
+  }
+
+  .heading {
+    h3, svg {
+      display: flex;
+      flex-direction: column;
+      margin: auto 0;
+    }
+  }
+
+  .made-with-container {
+    margin: 5px 0 10px 0;
+  }
+
+  .icons-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto 1rem;
+
+    svg {
+      fill: $outer-space;
+      margin: 0 .5rem;
+      height: 2rem;
+      width: 2rem;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    flex-direction: column;
+
+
+    .icons-container {
+      flex-direction: row;
+      justify-content: center;
+      
+      svg {
+        margin: 1rem 2rem 0 2rem;
+      }
+    }
   }
 }

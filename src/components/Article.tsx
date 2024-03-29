@@ -1,3 +1,4 @@
+import SingleArticle from './SingleArticle';
 import ArticleList from '@/data/articles.json';
 
 const Articles = () => {
@@ -11,11 +12,11 @@ const Articles = () => {
           <span key={index}>{letter}</span>
         ))}
       </h2>
-      {ArticleList.map((item, index) => (
-        <article key={index}>
-          <h3>{item.title}</h3>
-        </article>
-      ))}
+      <div className="container">
+        {ArticleList.map((item, index) => (
+          <SingleArticle key={index} article={item} />
+        ))}
+      </div>
     </section>
   )
 }

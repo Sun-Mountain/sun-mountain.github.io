@@ -1,8 +1,13 @@
 [{
   "site": "BlueSky",
-  "alt": "Blue Sky Account @nikacodes.bsky.social"
+  "alt": "Blue Sky Account @nikacodes.bsky.social",
+  "url": "https://bsky.app/profile/nikacodes.bsky.social"
 }, {
-  "site": "GitHub"
+  "site": "GitHub",
+  "alt": "GitHub Account @Sun-Mountain",
+  "url": "https://github.com/Sun-Mountain"
 }, {
-  "site": "Dev.to"
+  "site": "Dev.to",
+  "alt": "Dev.to Account @nikacodes",
+  "url": "https://dev.to/nikacodes"
 }]

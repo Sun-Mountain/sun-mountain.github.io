@@ -1,13 +1,19 @@
 [{
   "title": "GenCon Calendar",
   "github": "https://github.com/Sun-Mountain/GenConCal",
-  "liveLink": "https://genconcal.com"
+  "liveLink": "https://genconcal.com",
+  "description": "An schedule organizer for the GenCon gaming convention that hosts over 22,000 events over 4 days.  This app allows users to search for events, add them to their schedule, and view their schedule.",
+  "madeWith": ["NextJS", "TypeScript"]
 },{
   "title": "Shelf Esteem",
   "github": "https://github.com/Sun-Mountain/shelf-esteem/",
-  "liveLink": "https://shelf-esteem.fly.dev"
+  "liveLink": "https://shelf-esteem.fly.dev",
+  "description": "A personal library organizer that allows users to upload books via ISBN, search for books, and view their library.",
+  "madeWith": ["NextJS", "TypeScript", "Prisma", "PostgreSQL"]
 },{
   "title": "Student Rooster",
   "github": "https://github.com/Sun-Mountain/student-rooster",
-  "liveLink": "https://student-rooster.fly.dev/"
+  "liveLink": "https://student-rooster.fly.dev/",
+  "description": "A student tracker application that allows users to add students, assign them to classes, and view their schedule and progress.",
+  "madeWith": ["Ruby on Rails", "fly.io"]
 }]

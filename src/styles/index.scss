@@ -19,3 +19,25 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
+
+header, main {
+  margin: 0 auto;
+  max-width: 1240px;
+}
+
+a, a:visited {
+  color: $neon-blue;
+}
+
+a:hover {
+  color: $carnation-pink;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+
+  li {
+    margin: 0;
+  }
+}
