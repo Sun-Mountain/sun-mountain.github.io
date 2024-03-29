@@ -1,6 +1,7 @@
 @import './utils/colors.scss';
 @import './utils/mixins.scss';
 
+@import './components/_cards.scss';
 @import './components/_header.scss';
 @import './components/_sections.scss';
 @import './components/_spotlights.scss';
@@ -11,6 +12,7 @@ body {
   margin: 0;
   padding: 2rem;
   background-color: #f5f5f5;
+  color: $outer-space;
 }
 
 h1, h2, h3, h4, h5, h6 {

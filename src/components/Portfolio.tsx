@@ -1,4 +1,5 @@
 import ProjectList from '@/data/projects.json';
+import PortfolioCard from '@/components/PortfolioCard';
 
 const Portfolio = () => {
 
@@ -11,11 +12,11 @@ const Portfolio = () => {
           <span key={index}>{letter}</span>
         ))}
       </h2>
-      {ProjectList.map((project, index) => (
-        <article key={index}>
-          <h3>{project.title}</h3>
-        </article>
-      ))}
+      <div className="container">
+        {ProjectList.map((item, index) => (
+          <PortfolioCard key={index} project={item} />
+        ))}
+      </div>
     </section>
   )
 }

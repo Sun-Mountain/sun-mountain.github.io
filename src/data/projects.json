@@ -1,7 +1,10 @@
 [{
-  "title": "GenCon Calendar"
+  "title": "GenCon Calendar",
+  "liveLink": "https://genconcal.com"
 },{
-  "title": "Shelf Esteem"
+  "title": "Shelf Esteem",
+  "liveLink": "https://shelf-esteem.fly.dev"
 },{
-  "title": "Student Rooster"
+  "title": "Student Rooster",
+  "liveLink": "https://student-rooster.fly.dev/"
 }]

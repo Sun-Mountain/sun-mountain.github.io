@@ -1,0 +1,7 @@
+.card-container {
+  padding: 1rem 0;
+}
+
+.card-container + .card-container {
+  border-top: 1px dashed $french-gray-2;
+}
