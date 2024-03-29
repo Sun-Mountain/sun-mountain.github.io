@@ -1,0 +1,11 @@
+@mixin margin-transition {
+  transition-duration: 500ms;
+  transition-property: margin;
+}
+
+@mixin hover-margin-reset {
+  &:hover {
+    cursor: default;
+    margin: 0.75rem;
+  }
+}

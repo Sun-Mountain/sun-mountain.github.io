@@ -1,5 +1,4 @@
 /** @type {import('next').NextConfig} */
-
 import path from 'path';
 import { fileURLToPath } from 'url';
 
