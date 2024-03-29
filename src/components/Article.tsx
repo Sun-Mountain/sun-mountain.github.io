@@ -11,9 +11,9 @@ const Articles = () => {
           <span key={index}>{letter}</span>
         ))}
       </h2>
-      {ArticleList.map((project, index) => (
+      {ArticleList.map((item, index) => (
         <article key={index}>
-          <h3>{project.title}</h3>
+          <h3>{item.title}</h3>
         </article>
       ))}
     </section>
