@@ -13,11 +13,11 @@ export const transitionSlice = createSlice({
   name: "transition",
   initialState,
   reducers: {
-    showTransition: (state, action: PayloadAction<boolean>) => {
-      state.authState = action.payload;
+    SHOW_TRANSITIONS: (state, action: PayloadAction<boolean>) => {
+      state.transitionState = action.payload;
     },
   },
 });
 
-export const { showTransition } = transitionSlice.actions;
+export const { SHOW_TRANSITIONS } = transitionSlice.actions;
 export const transitionReducer = transitionSlice.reducer;

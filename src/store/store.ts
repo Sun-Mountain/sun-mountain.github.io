@@ -3,7 +3,7 @@ import { useDispatch, TypedUseSelectorHook, useSelector } from "react-redux";
 import { transitionReducer } from "@/store/transitionSlice";
 
 export const store = configureStore({
-  reducer: { showTransition: transitionReducer },
+  reducer: { SHOW_TRANSITIONS: transitionReducer },
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware({ serializableCheck: false }),
 });

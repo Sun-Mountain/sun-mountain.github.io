@@ -6,6 +6,9 @@ header {
       margin: 0 -0.70rem;
       opacity: 0.75;
       text-transform: lowercase;
+    }
+
+    .transition {
       @include margin-transition;
     }
 
@@ -17,7 +20,7 @@ header {
 
     &:hover {
       cursor: default;
-      span {
+      .transition {
         @include hover-margin-reset;
       }
     }
