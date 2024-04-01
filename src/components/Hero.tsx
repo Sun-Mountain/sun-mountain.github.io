@@ -1,9 +1,11 @@
-const Hero = () => {
+import SwitchComponent from "./SwitchComponent";
 
+const Hero = () => {
   const welcome = "Welcome".split('');
 
   return (
     <header>
+      <SwitchComponent />
       <h1>
         {welcome.map((letter, index) => (
           <span key={index}>{letter}</span>
