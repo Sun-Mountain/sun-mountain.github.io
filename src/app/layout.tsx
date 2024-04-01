@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Provider from "@/components/Provider";
 import "@/styles/index.scss";
 import Hero from "@/components/Hero";
 
@@ -14,12 +15,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
-        <Hero />
-        <main>
-          {children}
-        </main>
-      </body>
+      <Provider>
+        <body>
+          <Hero />
+          <main>
+            {children}
+          </main>
+        </body>
+      </Provider>
     </html>
   );
 }
