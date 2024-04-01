@@ -12,14 +12,18 @@ const Hero = () => {
   const dispatch = useAppDispatch();
   const showTransitions = useAppSelector(state => state.SHOW_TRANSITIONS.transitionState);
 
-  const handleToggle = () => {
+  const handleTransitionToggle = () => {
     setTransitions(!transitions);
     dispatch(SHOW_TRANSITIONS(!transitions));
   }
 
   return (
     <header>
-      <SwitchComponent isChecked={transitions} handleToggle={handleToggle} />
+      <SwitchComponent
+        isChecked={transitions}
+        handleToggle={handleTransitionToggle}
+        labelText="Transitions"
+      />
       <h1>
         {welcome.map((letter, index) => (
           <span key={index} className={`${showTransitions ? 'transition' : ''}`}>{letter}</span>

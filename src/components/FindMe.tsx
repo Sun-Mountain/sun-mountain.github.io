@@ -1,3 +1,5 @@
+'use client';
+import { useAppSelector } from '@/store/store';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -11,8 +13,8 @@ import {
 import SocialMediaList from '@/data/socialmedia.json';
 
 const FindMe = () => {
-
   const title = "Find Me".split('');
+  const showTransitions = useAppSelector(state => state.SHOW_TRANSITIONS.transitionState);
 
   const findIcon = (site: string) => {
     switch(site) {
@@ -29,9 +31,9 @@ const FindMe = () => {
 
   return (
     <section id="findme-spotlight">
-      <h2>
+      <h2 className={`${showTransitions ? 'transition' : ''}`}>
         {title.map((letter, index) => (
-          <span key={index}>{letter}</span>
+          <span key={index} className={`${showTransitions ? 'transition' : ''}`}>{letter}</span>
         ))}
       </h2>
       <div id="media-container">

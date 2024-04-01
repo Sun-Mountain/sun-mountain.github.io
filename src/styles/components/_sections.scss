@@ -13,6 +13,9 @@ section {
       margin: 0 -0.25rem;
       opacity: 0.75;
       text-transform: lowercase;
+    }
+
+    .transition {
       @include transition;
     }
 
@@ -21,14 +24,18 @@ section {
     }
   }
 
+  .transition {
+    @include transition;
+  }
+
   &:hover {
-    h2 {
+    .transition {
       background-size: 50%;
-      span {
+      .transition {
         margin: 0.75rem;
       }
 
-      span:first-child {
+      .transition:first-child {
         margin: 0;
       }
     }
