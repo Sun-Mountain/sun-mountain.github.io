@@ -1,24 +1,3 @@
-#portfolio-spotlight {
-  h2 {
-    background-image: linear-gradient(90deg, $carnation-pink, $yellow, $fawn);
-  }
-}
-
-#articles-spotlight {
-  h2 {
-    background-image: linear-gradient(90deg, $wisteria, $medium-turquoise, $blue-jeans);
-    span:first-child {
-      margin-left: 0;
-    }
-  }
-}
-
-#findme-spotlight {
-  h2 {
-    background-image: linear-gradient(90deg, $light-green, $yellow, $carnation-pink);
-  }
-}
-
 .container {
   background-color: #FFF;
   border-radius: .25rem;
